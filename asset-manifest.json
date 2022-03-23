@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/itmo/static/css/main.6b321267.css",
+    "main.js": "/itmo/static/js/main.4b1d8f6a.js",
+    "static/js/787.a89d4e5f.chunk.js": "/itmo/static/js/787.a89d4e5f.chunk.js",
+    "static/media/Project.svg": "/itmo/static/media/Project.39324c8d71c0fa05321f.svg",
+    "static/media/OpenSans-Bold.ttf": "/itmo/static/media/OpenSans-Bold.dbb97fd982ce1b96b6de.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/itmo/static/media/OpenSans-SemiBold.a16d8201b06a03c6c365.ttf",
+    "static/media/OpenSans-Regular.ttf": "/itmo/static/media/OpenSans-Regular.1b0809d519837cb7aad3.ttf",
+    "static/media/brain.svg": "/itmo/static/media/brain.ef61fd7979fcce2f666d.svg",
+    "static/media/cpu.svg": "/itmo/static/media/cpu.144b92f6886ea5b808aa.svg",
+    "static/media/robo.svg": "/itmo/static/media/robo.ddd20bb3c2db3292cb20.svg",
+    "static/media/Vector.svg": "/itmo/static/media/Vector.d313d7c7cdc49612362b.svg",
+    "index.html": "/itmo/index.html",
+    "main.6b321267.css.map": "/itmo/static/css/main.6b321267.css.map",
+    "main.4b1d8f6a.js.map": "/itmo/static/js/main.4b1d8f6a.js.map",
+    "787.a89d4e5f.chunk.js.map": "/itmo/static/js/787.a89d4e5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b321267.css",
+    "static/js/main.4b1d8f6a.js"
+  ]
+}
