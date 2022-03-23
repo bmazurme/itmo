@@ -1,0 +1,26 @@
+.card__button {
+  z-index: 1;
+  padding: 0;
+  /* padding: 10px 8px; */
+  max-width: 215px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
+  border: 1px solid #001337;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
