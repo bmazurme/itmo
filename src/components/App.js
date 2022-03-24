@@ -4,9 +4,9 @@ import React from 'react';
 
 const cards = [
   '',
-  'card__icon_brain',
-  'card__icon_cpu',
-  'card__icon_robo'
+  'mach',
+  'data',
+  'robo'
 ];
 
 function App() {
