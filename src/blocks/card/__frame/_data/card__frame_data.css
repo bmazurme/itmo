@@ -1,3 +1,5 @@
 .card__frame_data {
-  background-image: url(../../../../images/covers/Data.svg);
+  background: url(../../../../images/covers/Data.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

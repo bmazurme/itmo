@@ -1,3 +1,5 @@
 .card__frame_mach {
-  background-image: url(../../../../images/covers/Machine-learning.svg);
+  background: url(../../../../images/covers/Machine-learning.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
