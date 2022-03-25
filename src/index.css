@@ -23,3 +23,9 @@
 @import url(./blocks/card-project/__image/card-project__image.css);
 @import url(./blocks/card-project/__content/card-project__content.css);
 @import url(./blocks/card-project/__link/card-project__link.css);
+
+@import url(./blocks/card-team/card-team.css);
+@import url(./blocks/card-team/__photo/card-team__photo.css);
+@import url(./blocks/card-team/__name/card-team__name.css);
+@import url(./blocks/card-team/__position/card-team__position.css);
+

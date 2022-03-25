@@ -1,13 +1,17 @@
 function CardTeam() {
+  let name = `Бобцов \n Алексей Алексеевич`;
+
+  name.split(' ').forEach(txt => console.log(txt));
+
+
   return(
     <div className="card-team">
       <div className="card-team__photo">
       </div>
       <div className="card-team__name">
-              Бобцов
-        Алексей Алексеевич
+        {name}
       </div>
-      <div className="">
+      <div className="card-team__position">
         Директор, профессор, ДТН
       </div>
     </div>
