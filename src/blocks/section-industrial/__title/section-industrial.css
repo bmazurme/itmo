@@ -1,0 +1,17 @@
+.section-industrial__title {
+  width: 1146px;
+  height: 68px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;  
+  color: #000D26;
+  margin-top: 80px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

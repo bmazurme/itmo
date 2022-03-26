@@ -75,6 +75,10 @@
 @import url(./blocks/block-magistr/__title/block-magistr__title.css);
 @import url(./blocks/block-magistr/__content/block-magistr__content.css);
 
+@import url(./blocks/section-industrial/section-industrial.css);
+@import url(./blocks/section-industrial/__title/section-industrial.css);
+@import url(./blocks/section-industrial/__cards/section-industrial__cards.css);
+
 @import url(./blocks/section-projects/section-projects.css);
 @import url(./blocks/section-projects/__title/section-projects__title.css);
 @import url(./blocks/section-projects/__cards/section-projects__cards.css);
