@@ -1,0 +1,16 @@
+.block-magistr__content {
+  width: 920px;
+  height: 150px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}

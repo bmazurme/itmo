@@ -1,0 +1,11 @@
+.card-magistr__image {
+  grid-area: image;
+  width: 445px;
+  height: 364px;
+  border-radius: 10px;
+  background-color: #ccc;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 30px;
+  margin-bottom: 35px;
+}

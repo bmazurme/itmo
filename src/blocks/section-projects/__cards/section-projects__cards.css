@@ -1,0 +1,9 @@
+.section-projects__cards {
+  display: flex;
+  flex-direction: row;
+  width: 1103px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

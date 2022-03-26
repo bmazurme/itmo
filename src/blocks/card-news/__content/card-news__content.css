@@ -1,0 +1,16 @@
+.card-news__content {
+  width: 308px;
+  height: 133px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000D26;
+  align-self: stretch;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}

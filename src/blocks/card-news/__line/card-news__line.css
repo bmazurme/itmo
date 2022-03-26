@@ -1,0 +1,9 @@
+.card-news__line {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #009FAC;
+  width: 308px;
+  padding: 0;
+}

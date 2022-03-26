@@ -52,3 +52,29 @@
 @import url(./blocks/social/__icon/_vk/social__icon_vk.css);
 @import url(./blocks/social/__icon/_fc/social__icon_fc.css);
 @import url(./blocks/social/__icon/_tg/social__icon_tg.css);
+@import url(./blocks/social/__icon/_in/social__icon_in.css);
+@import url(./blocks/social/__icon/_yo/social__icon_yo.css);
+
+@import url(./blocks/card-news/card-news.css);
+@import url(./blocks/card-news/__content/card-news__content.css);
+@import url(./blocks/card-news/__date/card-news__date.css);
+@import url(./blocks/card-news/__title/card-news__title.css);
+@import url(./blocks/card-news/__line/card-news__line.css);
+@import url(./blocks/card-news/__pin/card-news__pin.css);
+
+@import url(./blocks/card-magistr/card-magistr.css);
+@import url(./blocks/card-magistr/__box/card-magistr__box.css);
+@import url(./blocks/card-magistr/__icon/card-magistr__icon.css);
+@import url(./blocks/card-magistr/__content/card-magistr__content.css);
+@import url(./blocks/card-magistr/__image/card-magistr__image.css);
+@import url(./blocks/card-magistr/__link/card-magistr__link.css);
+@import url(./blocks/card-magistr/__list/card-magistr__list.css);
+@import url(./blocks/card-magistr/__title/card-magistr__title.css);
+
+@import url(./blocks/block-magistr/block-magistr.css);
+@import url(./blocks/block-magistr/__title/block-magistr__title.css);
+@import url(./blocks/block-magistr/__content/block-magistr__content.css);
+
+@import url(./blocks/section-projects/section-projects.css);
+@import url(./blocks/section-projects/__title/section-projects__title.css);
+@import url(./blocks/section-projects/__cards/section-projects__cards.css);

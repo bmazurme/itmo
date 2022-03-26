@@ -1,0 +1,14 @@
+.card-news__pin {
+  background-image: url(../../../images/pin-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+  background-position: center;
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+}

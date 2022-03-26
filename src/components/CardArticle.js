@@ -3,11 +3,11 @@ import Social from './Social';
 import img from '../images/articles/tLZhFRLj6nY.jpg';
 
 const icons = [ 
-  {link: '#', icon:'vk'},
+  {link: '#', icon: 'vk'},
   {link: '#', icon: 'fc'},
-  {link: '#', icon: 'fc'},
-  {link: '#', icon: 'fc'},
-  {link: '#', icon: 'fc'}
+  {link: '#', icon: 'tg'},
+  {link: '#', icon: 'in'},
+  {link: '#', icon: 'yo'}
  ];
 
 function CardArticle() {
