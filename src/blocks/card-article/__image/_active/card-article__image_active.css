@@ -1,0 +1,4 @@
+.card-article__image_active {
+  height: calc(223px - 70px);
+  object-fit: cover;
+}

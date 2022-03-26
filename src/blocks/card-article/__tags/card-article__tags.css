@@ -1,14 +1,15 @@
-.card-team__position {
-  align-self: center;
+.card-article__tags {
   font-family: 'OpenSans';
   font-style: italic;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #009FAC;
+  width: 305px;
+  height: 38px;
+
   margin-top: 4px;
-  margin-bottom: 30px;
   margin-left: 0;
   margin-right: 0;
-  padding: 0;
+  margin-bottom: 0;
 }

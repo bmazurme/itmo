@@ -1,0 +1,7 @@
+.card-article__label {
+  display: flex;
+  align-items: center;
+  text-align: center;  
+  color: #FFFFFF;
+  text-decoration: none;
+}

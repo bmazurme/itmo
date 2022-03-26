@@ -27,5 +27,20 @@
 @import url(./blocks/card-team/card-team.css);
 @import url(./blocks/card-team/__photo/card-team__photo.css);
 @import url(./blocks/card-team/__name/card-team__name.css);
+@import url(./blocks/card-team/__paragraph/card-team__paragraph.css);
 @import url(./blocks/card-team/__position/card-team__position.css);
 
+@import url(./blocks/card-article/card-article.css);
+@import url(./blocks/card-article/__box/card-article__box.css);
+@import url(./blocks/card-article/__content/card-article__content.css);
+@import url(./blocks/card-article/__image/card-article__image.css);
+@import url(./blocks/card-article/__tags/card-article__tags.css);
+@import url(./blocks/card-article/__title/card-article__title.css);
+@import url(./blocks/card-article/__button/card-article__button.css);
+@import url(./blocks/card-article/__image/_active/card-article__image_active.css);
+
+@import url(./blocks/card-article/__link/card-article__link.css);
+@import url(./blocks/card-article/__lable/card-article__label.css);
+@import url(./blocks/card-article/__icon/card-article__icon.css);
+@import url(./blocks/card-article/__shared/card-article__shared.css);
+@import url(./blocks/card-article/__popup/card-article__popup.css);

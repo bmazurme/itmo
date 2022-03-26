@@ -1,0 +1,13 @@
+.card-article__icon {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  margin-right: auto;
+}

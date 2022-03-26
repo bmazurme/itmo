@@ -1,5 +1,12 @@
 .card-team__name {
-  width: 255px;
+  
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "first" 
+                       "second";
+  width: 215px;
   height: 60px;
   font-family: 'OpenSans';
   font-style: normal;
@@ -12,4 +19,5 @@
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 }

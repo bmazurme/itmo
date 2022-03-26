@@ -1,0 +1,14 @@
+.card-article__title {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000D26;
+  width: 305px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}

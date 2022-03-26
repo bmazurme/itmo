@@ -2,6 +2,7 @@ import '../index.css';
 import Card from './Card';
 import CardProject from './CardProject';
 import CardTeam from './CardTeam';
+import CardArticle from'./CardArticle';
 import React from 'react';
 
 const cards = [
@@ -30,6 +31,10 @@ function App() {
 
       <div className='cards'>
         <CardTeam/>
+      </div>
+
+      <div className='cards'>
+        <CardArticle/>
       </div>
 
     </div>

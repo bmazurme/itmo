@@ -1,7 +1,10 @@
 .card-team__photo {
   width: 215px;
   height: 286px;
-  background: gray;
+  background: #ccc;
+  /* background-image: url(../../../images/people/man_photo.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 0;
