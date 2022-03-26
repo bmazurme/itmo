@@ -39,5 +39,11 @@ ToDo:
 [Проект на GitHub Pages](https://bmazurme.github.io/itmo/)
 
 
+## Ссылки
+
+* [Макет](https://www.figma.com/file/1V8lzi168fbxjb5cm5gVj0/PAGE-SG_ITMO?node-id=0%3A1)
+* [UI kit](https://www.figma.com/file/1V8lzi168fbxjb5cm5gVj0/PAGE-SG_ITMO?node-id=1146%3A9181)
+
+
 ### Стек технологий
 HTML, CSS, JS, JSX, React.js
