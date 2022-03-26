@@ -44,3 +44,11 @@
 @import url(./blocks/card-article/__icon/card-article__icon.css);
 @import url(./blocks/card-article/__shared/card-article__shared.css);
 @import url(./blocks/card-article/__popup/card-article__popup.css);
+@import url(./blocks/card-article/__popup/_active/card-article__popup_active.css);
+
+@import url(./blocks/social/social.css);
+@import url(./blocks/social/__link/social__link.css);
+@import url(./blocks/social/__icon/social__icon.css);
+@import url(./blocks/social/__icon/_vk/social__icon_vk.css);
+@import url(./blocks/social/__icon/_fc/social__icon_fc.css);
+@import url(./blocks/social/__icon/_tg/social__icon_tg.css);

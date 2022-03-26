@@ -36,7 +36,6 @@ function App() {
       <div className='cards'>
         <CardArticle/>
       </div>
-
     </div>
   );
 }

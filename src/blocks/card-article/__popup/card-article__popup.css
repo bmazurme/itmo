@@ -9,6 +9,9 @@
   background: #FFFFFF;
   border-radius: 8px;
 
+  display: none;
+  padding: 0;
+
   filter: drop-shadow(0px 4px 20px rgba(73, 111, 168, 0.15));
 }
 

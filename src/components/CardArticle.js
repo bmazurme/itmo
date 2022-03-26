@@ -1,5 +1,14 @@
 import React from 'react';
+import Social from './Social';
 import img from '../images/articles/tLZhFRLj6nY.jpg';
+
+const icons = [ 
+  {link: '#', icon:'vk'},
+  {link: '#', icon: 'fc'},
+  {link: '#', icon: 'fc'},
+  {link: '#', icon: 'fc'},
+  {link: '#', icon: 'fc'}
+ ];
 
 function CardArticle() {
   const [active, setActive] = React.useState(false);
@@ -7,7 +16,9 @@ function CardArticle() {
 
   function handleClick() {
     setActive(!active);
+    handleClickShared(false);
   }
+
   function handleClickShared(val) {
     setSharedPopup(val);
   }
@@ -48,29 +59,23 @@ function CardArticle() {
         </div>
       </div>
 
-      {active && <div className='card-article__button'>
-            <div className="card-article__link">            
-              <a href='#' 
-                 className='card-article__label'>
-                    Читать полностью
+      {active && 
+        <div className='card-article__button'>
+          <div className="card-article__link">            
+            <a href='#' 
+               className='card-article__label'>
+                  Читать полностью
                 <div className="card-article__icon"/>
-              </a>
-
-              <div onClick={()=>handleClickShared(true)}
-                   className="card-article__shared">
-                  <div className='card-article__popup'>
-
-                    <div className='icon vk'></div>
-                    <div className='icon fc'></div>
-                    <div className='icon tg'></div>
-                    <div className='icon in'></div>
-                    <div className='icon yo'></div>
-
-                  </div>
+            </a>
+            <div onClick={()=>handleClickShared(true)}
+                 className="card-article__shared">
+              <div className={`card-article__popup ${sharedPopup && 'card-article__popup_active'}`}>
+                <Social icons={icons}/>
               </div>
-
             </div>
-        </div>}
+          </div>
+        </div>
+      }
     </div>
   );
 }
