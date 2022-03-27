@@ -21,6 +21,7 @@
 
 @import url(./blocks/card-project/card-project.css);
 @import url(./blocks/card-project/__image/card-project__image.css);
+@import url(./blocks/card-project/__image/_active/card-project__image_active.css);
 @import url(./blocks/card-project/__content/card-project__content.css);
 @import url(./blocks/card-project/__link/card-project__link.css);
 
