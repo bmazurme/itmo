@@ -1,6 +1,12 @@
+import React from "react";
 import CardMagistr from "./CardMagistr";
+import Switcher from "./Switcher";
 
 function SectionMagistr() {
+  const [slide, setSlide] = React.useState(false);
+  function handlerClick(val) {
+    setSlide(val);
+  }
   return(
     <section className="section-magistr">
       <h2 className="section-magistr__title">ОБРАЗОВАНИЕ</h2>
@@ -12,15 +18,9 @@ function SectionMagistr() {
         области электронного и дистанционного образования. Реализуются 
         образовательные программы различных форматов.
       </p>
-      <CardMagistr/>
-      <div className="section-magistr__switcher">
-        <div className="section-magistr__button">
-          АСПИРАНТУРА
-        </div>
-        <div className="section-magistr__button section-magistr__button_white">
-          МАГИСТРАТУРА
-        </div>
-      </div>
+      <CardMagistr slide={slide}/>
+      <Switcher slide={slide} 
+                handlerClick={handlerClick}/>
     </section>
   );
 }

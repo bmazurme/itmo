@@ -1,4 +1,4 @@
-.section-magistr__button_white {
+.switcher__button_white {
   background: #E0F0FF;
   border: 1px solid #E0F0FF;
   box-sizing: border-box;
@@ -15,4 +15,5 @@
   align-items: center;
   text-align: center;
   color: #000D26;
+  cursor: pointer;
 }
