@@ -13,8 +13,21 @@
   margin-left: 0;
   margin-right: 30px;
   padding: 0;
+  
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
 }
 
 .card-project:last-child {
   margin-right: 0;
+}
+
+.card-project:hover{
+  background: #E0F0FF;
+  color: #001337;
 }
