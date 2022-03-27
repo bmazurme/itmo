@@ -15,9 +15,9 @@ function App() {
       <SectionHeader/>
       <SectionIndustrial/>
       <SectionProjects/>
-      <SectionArticles/>
       <SectionTeam/>
       <SectionMagistr/>
+      <SectionArticles/>
       <SectionForm/>
       <SectionFooter/>
     </div>

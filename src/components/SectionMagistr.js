@@ -13,6 +13,14 @@ function SectionMagistr() {
         образовательные программы различных форматов.
       </p>
       <CardMagistr/>
+      <div className="section-magistr__switcher">
+        <div className="section-magistr__button">
+          АСПИРАНТУРА
+        </div>
+        <div className="section-magistr__button section-magistr__button_white">
+          МАГИСТРАТУРА
+        </div>
+      </div>
     </section>
   );
 }

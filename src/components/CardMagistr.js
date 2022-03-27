@@ -13,7 +13,9 @@ function CardMagistr() {
   return(
     <div className="card-magistr">
       <div className="card-magistr__box">
-        <h2 className="card-magistr__title">Образовательные программы аспирантуры в области МО и КТ</h2>
+        <h2 className="card-magistr__title">
+          Образовательные программы аспирантуры в области МО и КТ
+        </h2>
         <ul className="card-magistr__list">
           {list.map((item, index) => 
             <li key={index}>{item}</li>

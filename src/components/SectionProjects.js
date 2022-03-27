@@ -15,7 +15,6 @@ function SectionProjects() {
       <div className="section-projects__cards">
         {cards.map((card, index)=> <CardProject key={index}/>)}
       </div>
-
     </section>
   );
 }
