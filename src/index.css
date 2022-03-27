@@ -86,5 +86,6 @@
 
 @import url(./blocks/section-form/section-form.css);
 @import url(./blocks/section-form/__title/section-form__title.css);
+@import url(./blocks/section-form/__content/section-form__content.css);
 
 @import url(./blocks/section-footer/section-footer.css);
