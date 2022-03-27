@@ -10,7 +10,6 @@ function CardMagistr() {
     'Технологии разработки компьютерных игр'
   ];
 
-
   return(
     <div className="card-magistr">
       <div className="card-magistr__box">

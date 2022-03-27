@@ -1,28 +1,11 @@
 import React from 'react';
 import Social from './Social';
 import img from '../images/articles/tLZhFRLj6nY.jpg';
-
-const icons = [ 
-  {link: '#', icon: 'vk'},
-  {link: '#', icon: 'fc'},
-  {link: '#', icon: 'tg'},
-  {link: '#', icon: 'in'},
-  {link: '#', icon: 'yo'}
- ];
+import { icons } from '../data/social';
 
 function CardArticle() {
   const [active, setActive] = React.useState(false);
   const [sharedPopup, setSharedPopup] = React.useState(false);
-
-  function handleClick() {
-    setActive(!active);
-    handleClickShared(false);
-  }
-
-  function handleClickShared(val) {
-    setSharedPopup(val);
-  }
-
   const {title, content, tags } = {
     title: 'Topic-driven Ensemble for Online Advertising Generation', 
     content: 'Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. Professional generation of banners requires creative and writing skills and a basi…',
@@ -32,6 +15,15 @@ function CardArticle() {
       'Maria Khodorchenko',
       'Maxim Petrov',
       'Denis Nasonov']
+  }
+
+  function handleClick() {
+    setActive(!active);
+    handleClickShared(false);
+  }
+
+  function handleClickShared(val) {
+    setSharedPopup(val);
   }
 
   return(

@@ -1,11 +1,10 @@
-.page {
-  display: flex;
-  flex-direction: column;
-  max-width: 1440px;
-  width: 100%;
+.section-header {
+  width: 1440px;
+  height: 1024px;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  background: #001337;
 }

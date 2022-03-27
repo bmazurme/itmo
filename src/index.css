@@ -71,9 +71,10 @@
 @import url(./blocks/card-magistr/__list/card-magistr__list.css);
 @import url(./blocks/card-magistr/__title/card-magistr__title.css);
 
-@import url(./blocks/block-magistr/block-magistr.css);
-@import url(./blocks/block-magistr/__title/block-magistr__title.css);
-@import url(./blocks/block-magistr/__content/block-magistr__content.css);
+@import url(./blocks/section-header/section-header.css);
+@import url(./blocks/section-magistr/section-magistr.css);
+@import url(./blocks/section-magistr/__title/section-magistr__title.css);
+@import url(./blocks/section-magistr/__content/section-magistr__content.css);
 
 @import url(./blocks/section-industrial/section-industrial.css);
 @import url(./blocks/section-industrial/__title/section-industrial.css);
@@ -82,3 +83,8 @@
 @import url(./blocks/section-projects/section-projects.css);
 @import url(./blocks/section-projects/__title/section-projects__title.css);
 @import url(./blocks/section-projects/__cards/section-projects__cards.css);
+
+@import url(./blocks/section-form/section-form.css);
+@import url(./blocks/section-form/__title/section-form__title.css);
+
+@import url(./blocks/section-footer/section-footer.css);
