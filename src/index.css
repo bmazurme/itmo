@@ -79,6 +79,7 @@
 @import url(./blocks/section-industrial/section-industrial.css);
 @import url(./blocks/section-industrial/__title/section-industrial.css);
 @import url(./blocks/section-industrial/__cards/section-industrial__cards.css);
+@import url(./blocks/section-industrial/__paragraph/section-industrial__paragraph.css);
 
 @import url(./blocks/section-projects/section-projects.css);
 @import url(./blocks/section-projects/__title/section-projects__title.css);
