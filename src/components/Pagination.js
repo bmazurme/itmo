@@ -1,10 +1,11 @@
-function Pagination() {
+function Pagination(props) {
+  const arr = new Array(4).fill('d');  
   return(
     <ul className="pagination">
-      <li className="pagination__dot"></li>
-      <li className="pagination__dot pagination__dot_active"></li>
-      <li className="pagination__dot"></li>
-      <li className="pagination__dot"></li>
+      {arr.map((item, index) =>
+        <li key={`${item}-${index}`} 
+            className={`pagination__dot ${index === props.dot && 'pagination__dot_active'}`}></li>
+       )}
     </ul>
   );
 }

@@ -122,3 +122,7 @@
 @import url(./blocks/pagination/pagination.css);
 @import url(./blocks/pagination/__dot/pagination__dot.css);
 @import url(./blocks/pagination/__dot/_active/pagination__dot_active.css);
+
+@import url(./blocks/nav-button/nav-button.css);
+@import url(./blocks/nav-button/__left/nav-button__left.css);
+@import url(./blocks/nav-button/__right/nav-button__right.css);
