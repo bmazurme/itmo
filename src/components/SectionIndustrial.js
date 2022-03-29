@@ -1,5 +1,7 @@
 import Card from './Card';
 import { cards } from '../data/industrial';
+import img_right from '../images/image-35.png'; 
+import img_left from '../images/image-38.png'; 
 
 function SectionIndustrial() {
   return(
@@ -17,7 +19,7 @@ function SectionIndustrial() {
           и когнитивные технологии». 
         </p>
         
-        <p className="section-industrial__paragraph">
+        <p className="section-industrial__paragraph section-industrial__paragraph_bottom">
           Мы изучаем проблемы и выявляем, когда мы работаем 
           вместе с нашими клиентами, новые решения 
           находят, не задумываясь. Работая таким образом 
@@ -25,8 +27,8 @@ function SectionIndustrial() {
           подход для удовлетворения потребностей наших клиентов.
         </p>
 
-        <img className="section-industrial__image" src='' alt=''/>
-        <img className="section-industrial__image" src='' alt=''/>
+        <img className="section-industrial__image" src={img_left} alt=''/>
+        <img className="section-industrial__image section-industrial__image_second" src={img_right} alt=''/>
       </div>
 
       <div className='section-industrial__cards'>
