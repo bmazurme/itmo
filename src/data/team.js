@@ -18,5 +18,32 @@ export const cards = [
     name: `Матвеев Юрий Николаевич`,
     position: `Руководитель, профессор, ДТН`,
     photo: require('../images/people/man_photo_3.jpg')
-  }
+  },
+  {
+    name: `Шалыто Анатолий Абрамович`,
+    position: `Профессор, ДТН`,
+    photo: require('../images/people/man_photo_4.jpg')
+  },
+  {
+    name: `Колюбин Сергей Алексеевич`,
+    position: `Начальник, профессор, ДТН`,
+    photo: require('../images/people/man_photo_5.jpg')
+  },
+  {
+    name: `Пыркин Антон Александрович`,
+    position: `Декан, профессор, ДТН`,
+    photo: require('../images/people/man_photo_6.jpg')
+  },
+  {
+    name: `Шалыто Анатолий Абрамович`,
+    position: `Профессор, ДТН`,
+    photo: require('../images/people/Man.jpg')
+  },
+  {
+    name: `Колюбин Сергей Алексеевич`,
+    position: `Начальник, профессор, ДТН`,
+    photo: require('../images/people/Women.jpg')
+  },
+
+
 ];
