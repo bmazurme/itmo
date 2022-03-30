@@ -5,11 +5,14 @@ import React from "react";
 
 function SectionTeam() {
   const step = 4;
-  let dots = cards.length % step;
-
-  if ((cards.length / step-dots) > 0) {
+  let dots = Math.trunc(cards.length / step);
+  if ((cards.length / step - dots) > 0) {
     dots+=1;
   }
+
+  console.log(cards.length);
+
+  console.log(dots);
 
   const arrSlides = [];
   for (let i = 0; i < Math.ceil(cards.length/step); i++){
