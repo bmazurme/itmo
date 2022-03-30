@@ -1,5 +1,5 @@
 .pagination__dot_active {
-  /* background: #E0F0FF; */
-  background-color: brown;
+  background: #E0F0FF;
+  /* background-color: brown; */
   opacity: 1;
 }

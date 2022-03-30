@@ -1,19 +1,34 @@
 import CardArticle from "./CardArticle";
+import Pagination from "./Pagination";
+import { sliceArray, getDots, shiftPages } from "../utils/utils";
+import React from "react";
 
 function SectionArticles() {
+  const cards = [1,2,3];
+
+  const step = 3;
+  const dots = getDots(cards, step);
+  const arrSlides = sliceArray(cards, step);
+  const [dot, setDot] = React.useState(0);
+  const [pages, setPages] = React.useState(arrSlides);
+
+  function handleClick(val) {
+    const _dot = shiftPages(val, dot, pages);
+    setDot(_dot);
+  }
+
+
   return(
     <div className="section-articles">
       <h2 className="section-articles__title">
         Публикации
       </h2>
       <div className="section-articles__cards">
-        <CardArticle/>
-        <CardArticle/>
-        <CardArticle/>
-        <CardArticle/>
-        <CardArticle/>
-        <CardArticle/>
+        {pages[dot].map((card, index) =>
+            <CardArticle key={index} card={card}/>
+        )}
       </div>
+      <Pagination/>
     </div>
   );
 }

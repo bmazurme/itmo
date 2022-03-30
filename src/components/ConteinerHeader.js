@@ -4,32 +4,21 @@ import prev from "../images/Buttonroundprev.svg";
 import { cards } from "../data/news";
 import Pagination from "./Pagination";
 import React from "react";
+import { sliceArray, getDots, shiftPages } from "../utils/utils";
+
 
 function ConteinerHeader() {
     const step = 3;
-    let dots = Math.trunc(cards.length / step);
-    if ((cards.length / step - dots) > 0) {
-      dots+=1;
-    }
-  
-    const arrSlides = [];
-    for (let i = 0; i < Math.ceil(cards.length/step); i++){
-      arrSlides[i] = cards.slice((i*step), (i*step) + step);
-    }
-  
+    const dots = getDots(cards, step);
+    const arrSlides = sliceArray(cards, step);
     const [dot, setDot] = React.useState(0);
     const [pages, setPages] = React.useState(arrSlides);
-  
-    function shiftPages(val) {
-      let _dot = dot + val;   
-      if (_dot >= pages.length) {
-        _dot = _dot - pages.length;
-      } else if (_dot < 0) {
-        _dot = _dot + pages.length;
-      }
-      setDot(_dot);
-    }
 
+    function handleClick(val) {
+        const _dot = shiftPages(val, dot, pages);
+        setDot(_dot);
+    }
+  
     return (
         <div className="conteiner">
             <div className="conteiner__projects-header">
@@ -52,10 +41,10 @@ function ConteinerHeader() {
                     когнитивные технологии».</p>
             </div>
             <div className='cards'>
-                <button onClick={()=>shiftPages(-1)} className="conteiner__btn-prev">
+                <button onClick={()=>handleClick(-1)} className="conteiner__btn-prev">
                     <img className="prev" src={prev} alt="prev" />
                 </button>
-                <button onClick={()=>shiftPages(1)} className="conteiner__btn-next">
+                <button onClick={()=>handleClick(1)} className="conteiner__btn-next">
                     <img className="next" src={next} alt="next" />
                 </button>
 

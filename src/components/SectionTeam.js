@@ -2,29 +2,17 @@ import CardTeam from "./CardTeam";
 import Pagination from "./Pagination";
 import { cards } from '../data/team';
 import React from "react";
+import { sliceArray, getDots, shiftPages } from "../utils/utils";
 
 function SectionTeam() {
   const step = 4;
-  let dots = Math.trunc(cards.length / step);
-  if ((cards.length / step - dots) > 0) {
-    dots+=1;
-  }
-
-  const arrSlides = [];
-  for (let i = 0; i < Math.ceil(cards.length/step); i++){
-    arrSlides[i] = cards.slice((i*step), (i*step) + step);
-  }
-
+  const dots = getDots(cards, step);
+  const arrSlides = sliceArray(cards, step);
   const [dot, setDot] = React.useState(0);
   const [pages, setPages] = React.useState(arrSlides);
 
-  function shiftPages(val) {
-    let _dot = dot + val;   
-    if (_dot >= pages.length) {
-      _dot = _dot - pages.length;
-    } else if (_dot < 0) {
-      _dot = _dot + pages.length;
-    }
+  function handleClick(val) {
+    const _dot = shiftPages(val, dot, pages);
     setDot(_dot);
   }
 
@@ -39,9 +27,9 @@ function SectionTeam() {
             <CardTeam key={index} card={card}/>
           )}
         </div>
-        <div onClick={()=>shiftPages(-1)} 
+        <div onClick={()=>handleClick(-1)} 
           className="nav-button nav-button__left"/>
-        <div onClick={()=>shiftPages(1)} 
+        <div onClick={()=>handleClick(1)} 
           className="nav-button nav-button__right"/>
       </div>
       <Pagination dots={dots} dot={dot}/>
