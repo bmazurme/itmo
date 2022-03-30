@@ -1,5 +1,4 @@
 .section-industrial__paragraph {
-  grid-area: text-top;
   width: 540px;
   height: 126px;
   font-family: 'OpenSans';
@@ -10,8 +9,5 @@
   letter-spacing: 0.1px;
   color: #000D26;
   padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 30px;
+  margin: 0;
 }

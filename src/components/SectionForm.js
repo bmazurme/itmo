@@ -1,5 +1,3 @@
-import ContactForm from "./ContactForm";
-
 function SectionForm() {
   return(
     <section className="section-form">
@@ -11,7 +9,6 @@ function SectionForm() {
         по указанным телефонам, написать на почту или оставтиь свое 
         сообщение через форму обратной связи. 
       </p>
-      <ContactForm/>
     </section>
   );
 }

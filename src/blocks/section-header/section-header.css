@@ -1,14 +1,10 @@
 .section-header {
-  max-width: 1440px;
-  /* max-height: 1403px; */
+  width: 1440px;
+  height: 1024px;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  background-image: url(../../images/Background-image.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0 0;
-  background-color: #001337;
+  background: #001337;
 }
