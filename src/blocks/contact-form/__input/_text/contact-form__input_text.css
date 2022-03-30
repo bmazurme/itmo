@@ -1,0 +1,5 @@
+.contact-form__input_text {
+  grid-area: text;
+  height: 120px;
+  padding-top: 20px;
+}
