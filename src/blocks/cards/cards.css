@@ -1,8 +1,5 @@
 .cards {
   display: flex;
-  max-width: 1122px;
   flex-direction: row;
-  margin: 0 auto;
-  align-self: flex-start;
-  /* position: relative; */
+  margin: 20px;
 }

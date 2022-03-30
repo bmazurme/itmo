@@ -7,9 +7,4 @@
   background: #E0F0FF;
   border-radius: 10px;
   position: relative;
-  margin: 20px 32px 80px 0;
-}
-
-.card-news:last-child {
-  margin-right: 0;
 }
