@@ -10,10 +10,6 @@ function SectionTeam() {
     dots+=1;
   }
 
-  console.log(cards.length);
-
-  console.log(dots);
-
   const arrSlides = [];
   for (let i = 0; i < Math.ceil(cards.length/step); i++){
     arrSlides[i] = cards.slice((i*step), (i*step) + step);
