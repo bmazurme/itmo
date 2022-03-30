@@ -1,11 +1,11 @@
-import CardNews from "./CardNews";
+import Header from "./Header";
+import ConteinerHeader from "./ConteinerHeader";
 
 function SectionHeader() {
   return(
     <section className="section-header">
-      <div className='cards'>
-        <CardNews/>
-      </div>
+      <Header />
+      <ConteinerHeader />
     </section>
   );
 }
