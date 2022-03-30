@@ -1,0 +1,7 @@
+.nav-button__left_light {
+  left: 0;
+  background-image: url(../../../../images/arrow-left-lt.svg);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+  background-color: #fff;
+}

@@ -3,19 +3,9 @@ import Social from './Social';
 import img from '../images/articles/tLZhFRLj6nY.jpg';
 import { icons } from '../data/social';
 
-function CardArticle() {
+function CardArticle(props) {
   const [active, setActive] = React.useState(false);
   const [sharedPopup, setSharedPopup] = React.useState(false);
-  const {title, content, tags } = {
-    title: 'Topic-driven Ensemble for Online Advertising Generation', 
-    content: 'Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. Professional generation of banners requires creative and writing skills and a basi…',
-    tags: [
-      'Egor Nevezhin',
-      'Nikolay Butakov',
-      'Maria Khodorchenko',
-      'Maxim Petrov',
-      'Denis Nasonov']
-  }
 
   function handleClick() {
     setActive(!active);
@@ -38,16 +28,16 @@ function CardArticle() {
 
       <div className="card-article__box">
         <div className="card-article__title">
-          {title}
+          {props.card.title}
         </div>
         <div className="card-article__tags">
-          {tags.map((tag, index) => 
+          {props.card.tags.map((tag, index) => 
             <span className='card-article__tag' 
                   key={index}>{tag}
             </span>)}
         </div>
         <div className="card-article__content">
-          {content}
+          {props.card.content}
         </div>
       </div>
 

@@ -1,0 +1,6 @@
+.nav-button__right_light {
+  background-image: url(../../../../images/arrow-right-lt.svg);
+  background-color: #fff;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+}
