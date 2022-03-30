@@ -1,0 +1,15 @@
+.conteiner__btn-prev {
+    width: 120px;
+    height: 120px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 77%;
+    left: 50px;
+}
+
+.conteiner__btn-prev:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

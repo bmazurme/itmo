@@ -3,6 +3,26 @@
 @import url(./blocks/root/root.css);
 @import url(./blocks/page/page.css);
 
+/* header */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__background/header__background.css);
+
+/* log */
+@import url(./blocks/logo/__image/logo__image.css);
+
+/* Conteiner */
+@import url(./blocks/conteiner/conteiner.css);
+@import url(./blocks/conteiner/__projects/conteiner__projects-header.css);
+@import url(./blocks/conteiner/__projects/conteiner__projects-title.css);
+@import url(./blocks/conteiner/__projects/conteiner__projects-paragraph.css);
+@import url(./blocks/conteiner/__projects/conteiner__projects-button.css);
+@import url(./blocks/conteiner/__projects/conteiner__projects-title-string.css);
+@import url(./blocks/conteiner/__about/conteiner__about-header.css);
+@import url(./blocks/conteiner/__about/conteiner__about-title.css);
+@import url(./blocks/conteiner/__about/conteiner__about-paragraph.css);
+@import url(./blocks/conteiner/__btn/__btn-next/conteiner__btn-next.css);
+@import url(./blocks/conteiner/__btn/__btn-prev/conteiner__btn-prev.css);
+
 @import url(./blocks/cards/cards.css);
 @import url(./blocks/card/card.css);
 @import url(./blocks/card/__frame/card__frame.css);
@@ -21,6 +41,7 @@
 
 @import url(./blocks/card-project/card-project.css);
 @import url(./blocks/card-project/__image/card-project__image.css);
+@import url(./blocks/card-project/__image/_active/card-project__image_active.css);
 @import url(./blocks/card-project/__content/card-project__content.css);
 @import url(./blocks/card-project/__link/card-project__link.css);
 
@@ -82,12 +103,26 @@
 
 @import url(./blocks/section-industrial/section-industrial.css);
 @import url(./blocks/section-industrial/__title/section-industrial.css);
+@import url(./blocks/section-industrial/__container/section-industrial__container.css);
+
+
 @import url(./blocks/section-industrial/__cards/section-industrial__cards.css);
 @import url(./blocks/section-industrial/__paragraph/section-industrial__paragraph.css);
+@import url(./blocks/section-industrial/__paragraph/_botttom/section-industrial__paragraph.css);
+@import url(./blocks/section-industrial/__image/section-industrial__image.css);
+@import url(./blocks/section-industrial/__image/_second/section-industrial__image_second.css);
 
 @import url(./blocks/section-projects/section-projects.css);
 @import url(./blocks/section-projects/__title/section-projects__title.css);
 @import url(./blocks/section-projects/__cards/section-projects__cards.css);
+@import url(./blocks/section-projects/__tabs/section-projects__tabs.css);
+@import url(./blocks/section-projects/__tab/section-projects__tab.css);
+@import url(./blocks/section-projects/__tab/__tab-active/section-projects__tab-active.css);
+@import url(./blocks/section-projects/__number/section-projects__number.css);
+@import url(./blocks/section-projects/__numbers/section-projects__numbers.css);
+@import url(./blocks/section-projects/__points/section-projects__points.css);
+@import url(./blocks/section-projects/__number/__number-down/section-projects__number-down_arrow.css);
+@import url(./blocks/section-projects/__number/__number-right/section-projects__number-right_arrow.css);
 
 @import url(./blocks/section-form/section-form.css);
 @import url(./blocks/section-form/__title/section-form__title.css);
@@ -98,3 +133,32 @@
 @import url(./blocks/section-articles/section-articles.css);
 @import url(./blocks/section-articles/__title/section-articles__title.css);
 @import url(./blocks/section-articles/__cards/section-articles__cards.css);
+
+
+@import url(./blocks/nav/__header/nav__header.css);
+@import url(./blocks/nav/__lists/nav__lists.css);
+@import url(./blocks/nav/__list/nav__list.css);
+@import url(./blocks/nav/__list/nav__list-size.css);
+
+@import url(./blocks/contact-form/contact-form.css);
+@import url(./blocks/contact-form/__button/contact-form__button.css);
+@import url(./blocks/contact-form/__input/contact-form__input.css);
+@import url(./blocks/contact-form/__input/_email/contact-form__input_email.css);
+@import url(./blocks/contact-form/__input/_name/contact-form__input_name.css);
+@import url(./blocks/contact-form/__input/_phone/contact-form__input_phone.css);
+@import url(./blocks/contact-form/__input/_surname/contact-form__input_surname.css);
+@import url(./blocks/contact-form/__input/_text/contact-form__input_text.css);
+
+@import url(./blocks/section-team/section-team.css);
+@import url(./blocks/section-team/__title/section-team__title.css);
+@import url(./blocks/section-team/__cards/sectiom-team__cards.css);
+@import url(./blocks/section-team/__group/sectiom-team__cards.css);
+
+@import url(./blocks/pagination/pagination.css);
+@import url(./blocks/pagination/__dot/pagination__dot.css);
+@import url(./blocks/pagination/__dot/_active/pagination__dot_active.css);
+
+@import url(./blocks/nav-button/nav-button.css);
+@import url(./blocks/nav-button/__left/nav-button__left.css);
+@import url(./blocks/nav-button/__right/nav-button__right.css);
+

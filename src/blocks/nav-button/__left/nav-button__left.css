@@ -1,0 +1,7 @@
+.nav-button__left {
+  left: 0;
+  background-image: url(../../../images/team/arrow-down.svg);
+  /* background-position:center;
+  background-size: 36px;
+  background-repeat: no-repeat; */
+}

@@ -1,0 +1,17 @@
+.section-projects__tab {
+    width: 278px;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section-projects__tab:active {
+    border-bottom: 5px solid #009FAC;
+}

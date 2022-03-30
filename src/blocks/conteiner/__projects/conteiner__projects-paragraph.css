@@ -1,0 +1,11 @@
+.conteiner__projects-paragraph {
+    margin: 53px 0 50px 0;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    order: 1;
+}

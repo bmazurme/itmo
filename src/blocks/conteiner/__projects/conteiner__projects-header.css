@@ -1,0 +1,6 @@
+.conteiner__projects-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    margin: 92px 165px 124px 0;
+}
