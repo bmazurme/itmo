@@ -1,7 +1,14 @@
+import HeaderMenu from "./HeaderMenu";
+import logoItmo from "../images/logoItmo.svg";
+
 function Header() {
-  return(
-  <>
-  </>
+  return (
+    <div className="header__background">
+      <div className="header">
+        <img className="logo__image" src={logoItmo} alt="Логотип" />
+        <HeaderMenu />
+      </div>
+    </div>
   );
 }
 
