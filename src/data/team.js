@@ -18,5 +18,35 @@ export const cards = [
     name: `Матвеев Юрий Николаевич`,
     position: `Руководитель, профессор, ДТН`,
     photo: require('../images/people/man_photo_3.jpg')
-  }
+  },
+  {
+    name: `Бобцов Алексей Алексеевич`,
+    position: `Директор, профессор, ДТН`,
+    photo: require('../images/people/man_photo.jpg')
+  },
+  {
+    name: `Бобцов Алексей Алексеевич`,
+    position: `Директор, профессор, ДТН`,
+    photo: require('../images/people/man_photo.jpg')
+  },
+  {
+    name: `Бобцов Алексей Алексеевич`,
+    position: `Директор, профессор, ДТН`,
+    photo: require('../images/people/man_photo.jpg')
+  },
+  {
+    name: `Бобцов Алексей Алексеевич`,
+    position: `Директор, профессор, ДТН`,
+    photo: require('../images/people/man_photo.jpg')
+  },
+  {
+    name: `Бобцов Алексей Алексеевич`,
+    position: `Директор, профессор, ДТН`,
+    photo: require('../images/people/man_photo.jpg')
+  },
+  {
+    name: `Бобцов Алексей Алексеевич`,
+    position: `Директор, профессор, ДТН`,
+    photo: require('../images/people/man_photo.jpg')
+  },
 ];

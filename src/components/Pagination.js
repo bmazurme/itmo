@@ -1,5 +1,5 @@
 function Pagination(props) {
-  const arr = new Array(4).fill('d');  
+  const arr = new Array(props.dots).fill('d');  
   return(
     <ul className="pagination">
       {arr.map((item, index) =>
