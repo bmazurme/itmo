@@ -9,7 +9,7 @@ function SectionMagistr() {
   }
   return(
     <section className="section-magistr">
-      <h2 className="section-magistr__title">ОБРАЗОВАНИЕ</h2>
+      <h2 id="education" className="section-magistr__title">ОБРАЗОВАНИЕ</h2>
       <p className="section-magistr__content">
         В образовательной деятельности НЦКР активно использует существующую 
         в Университете ИТМО инфраструктуру и опыт реализации сетевых форм 

@@ -1,7 +1,5 @@
 function CardNews(props) {
-
   return (
-    <>
       <div className="card-news">
         <div className="card-news__pin" />
         <div className="card-news__date">
@@ -15,7 +13,6 @@ function CardNews(props) {
           {props.card.content}
         </div>
       </div>
-    </>
   );
 }
 

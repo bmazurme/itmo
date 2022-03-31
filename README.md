@@ -11,6 +11,8 @@
 * install dependencies: `npm install`
 * Run app: `npm start`
 
+* `npm i -S react-scroll`
+
 ToDo:
 
 - [ ] Block 1 - header + news
