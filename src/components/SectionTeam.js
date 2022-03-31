@@ -18,7 +18,7 @@ function SectionTeam() {
 
   return(
     <section className="section-team">
-      <h2 className="section-team__title">
+      <h2 id="team" className="section-team__title">
         НАША КОМАНДА
       </h2>
       <div className='section-team__cards'>

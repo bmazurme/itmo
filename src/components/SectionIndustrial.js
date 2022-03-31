@@ -6,7 +6,7 @@ import img_left from '../images/image-38.png';
 function SectionIndustrial() {
   return(
     <div className="section-industrial">
-      <h2 className="section-industrial__title">
+      <h2 id="lab" className="section-industrial__title">
         INDUSTRIAL AI RESEARCH LAB
       </h2>
 

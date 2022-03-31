@@ -6,7 +6,7 @@ import SectionTeam from './SectionTeam';
 import SectionIndustrial from './SectionIndustrial';
 import SectionProjects from './SectionProjects';
 import SectionMagistr from './SectionMagistr';
-import SectionForm from './SectionForm';
+import SectionContacts from './SectionContacts';
 import SectionFooter from './SectionFooter';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <SectionMagistr/>
       <SectionArticles/>
       <SectionTeam/>
-      <SectionForm/>
+      <SectionContacts/>
       <SectionFooter/>
     </div>
   );

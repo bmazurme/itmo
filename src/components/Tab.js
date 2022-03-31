@@ -3,7 +3,7 @@ function Tab () {
   return(
     <ul className="section-projects__tabs">
       {tabs.map((tab, index) =>
-      <li> 
+      <li key={index}> 
         <a className={`section-projects__tab ${index===0 && 'section-projects__tab-active'}`} href="#">{tab}
         </a>
       </li>)}

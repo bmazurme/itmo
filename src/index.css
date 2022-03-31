@@ -124,9 +124,9 @@
 @import url(./blocks/section-projects/__number/__number-down/section-projects__number-down_arrow.css);
 @import url(./blocks/section-projects/__number/__number-right/section-projects__number-right_arrow.css);
 
-@import url(./blocks/section-form/section-form.css);
-@import url(./blocks/section-form/__title/section-form__title.css);
-@import url(./blocks/section-form/__content/section-form__content.css);
+@import url(./blocks/section-contacts/section-contacts.css);
+@import url(./blocks/section-contacts/__title/section-contacts__title.css);
+@import url(./blocks/section-contacts/__content/section-contacts__content.css);
 
 @import url(./blocks/section-footer/section-footer.css);
 

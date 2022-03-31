@@ -31,8 +31,8 @@ function ConteinerHeader() {
             <a className="conteiner__projects-button" href="#">НАШИ ПРОЕКТЫ</a>
         </div>
         <div className="conteiner__about-header">
-            <h1 className="conteiner__about-title">
-                Несколько слов о нас</h1>
+            <h2 id="about" className="conteiner__about-title">
+                Несколько слов о нас</h2>
             <p className="conteiner__about-paragraph">
                 Национальный центр когнитивных разработок – центр национальной 
                 технологической инициативы (НТИ), получивший государственную 

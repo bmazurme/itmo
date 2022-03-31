@@ -1,14 +1,25 @@
-function HeaderMenu() {
+import React from "react";
+
+function HeaderMenu(props) {
+  const [active, setActive] = React.useState(0);
+
+  function handleClick(index, path) {
+    setActive(index);
+  }
+
   return(
     <nav className="nav__header">
       <ul className="nav__lists">
-        <li className="nav__list-size"><a className="nav__list nav__list-active" href="">О нас</a></li>
-        <li className="nav__list-size"><a className="nav__list" href="">Лаборатория</a></li>
-        <li className="nav__list-size"><a className="nav__list" href="">Проекты</a></li>
-        <li className="nav__list-size"><a className="nav__list" href="">Образование</a></li>
-        <li className="nav__list-size"><a className="nav__list" href="">Публикации</a></li>
-        <li className="nav__list-size"><a className="nav__list" href="">Команда</a></li>
-        <li className="nav__list-size"><a className="nav__list" href="">Связаться</a></li>
+        {props.links.map((link, index) => 
+          <li key={index} className="nav__list-size">
+            <a onClick={()=>handleClick(index, link.path)} 
+               className={`nav__list ${index===active ? 'nav__list-active' : ''}`} 
+               href="#"
+               >
+              {link.name}
+            </a>
+          </li>
+        )}
       </ul>
     </nav>
   );

@@ -6,7 +6,7 @@ import Tab from "./Tab";
 function SectionProjects() {
   return(
     <section className="section-projects">
-      <h2 className="section-projects__title">НАШИ ПРОЕКТЫ</h2>
+      <h2 id="projects" className="section-projects__title">НАШИ ПРОЕКТЫ</h2>
       <Tab/>
 
       <div className="section-projects__cards">

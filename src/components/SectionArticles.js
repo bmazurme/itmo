@@ -18,7 +18,7 @@ function SectionArticles() {
 
   return(
     <div className="section-articles">
-      <h2 className="section-articles__title">
+      <h2 id="articles" className="section-articles__title">
         Публикации
       </h2>
       <div className="section-articles__cards">
