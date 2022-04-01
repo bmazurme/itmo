@@ -15,12 +15,14 @@
   background-image:  url(../../../images/covers/Project.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.5s ease-out;
 }
 .card__frame:hover {
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff;
   height: 430px;
+  transition: 0.5s ease-out;
 }
 
 .card__frame::before {

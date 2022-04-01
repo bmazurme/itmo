@@ -1,0 +1,12 @@
+.popup__button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  top: 20px;
+  background-image: url(../../../images/close.svg);
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

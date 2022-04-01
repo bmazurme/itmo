@@ -1,0 +1,14 @@
+.popup__group {
+  display: grid;
+  row-gap: 0;
+  column-gap: 20px;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: 30px 688px;
+  grid-template-areas: "image title" 
+                       "image content";
+  margin: auto;
+  padding: 0;
+  width: 1070px;
+  height: 678px;
+  border-radius: 10px;
+}

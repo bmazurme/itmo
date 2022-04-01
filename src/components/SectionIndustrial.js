@@ -3,7 +3,7 @@ import { cards } from '../data/industrial';
 import img_right from '../images/image-35.png'; 
 import img_left from '../images/image-38.png'; 
 
-function SectionIndustrial() {
+function SectionIndustrial(props) {
   return(
     <div className="section-industrial">
       <h2 id="lab" className="section-industrial__title">
@@ -37,6 +37,7 @@ function SectionIndustrial() {
                 type={card.type}
                 title={card.title}
                 content={card.content}
+                {...props}
           />
         )}
       </div>
