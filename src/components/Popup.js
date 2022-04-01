@@ -2,7 +2,9 @@ import img from '../images/image-43.png';
 
 function Popup(props) {
   return(
-    <div className={`popup ${props.isOpen && 'popup_opened'}`} >
+    <div onClick={e => (e.currentTarget === e.target) && props.handleCardClick()} 
+         className={`popup ${props.isOpen && 'popup_opened'}`} >
+
       <div className="popup__container">
         <div className="popup__group">
         <div onClick={props.handleCardClick} className="popup__button"/>

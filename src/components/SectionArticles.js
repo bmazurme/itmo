@@ -17,7 +17,7 @@ function SectionArticles() {
   }
 
   return(
-    <div className="section-articles">
+    <section className="section-articles">
       <h2 id="articles" className="section-articles__title">
         Публикации
       </h2>
@@ -34,7 +34,7 @@ function SectionArticles() {
              className="nav-button nav-button__right_light"/>
       </div>
       <Pagination dots={dots} dot={dot}/>
-    </div>
+    </section>
   );
 }
 

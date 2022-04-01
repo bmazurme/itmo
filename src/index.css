@@ -178,3 +178,9 @@
 @import url(./blocks/popup/__image/popup__image.css);
 @import url(./blocks/popup/__title/popup__title.css);
 @import url(./blocks/popup/_opened/popup_opened.css);
+
+@import url(./blocks/section-partners/section-partners.css);
+@import url(./blocks/section-partners/__container/section-partners__container.css);
+@import url(./blocks/section-partners/__text/section-partners__text.css);
+@import url(./blocks/section-partners/__title/section-partners__title.css);
+@import url(./blocks/section-partners/__paragraph/section-partners__paragraph.css);

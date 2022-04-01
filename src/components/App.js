@@ -6,6 +6,7 @@ import SectionTeam from './SectionTeam';
 import SectionIndustrial from './SectionIndustrial';
 import SectionProjects from './SectionProjects';
 import SectionMagistr from './SectionMagistr';
+import SectionPartners from './SectionPartners';
 import SectionContacts from './SectionContacts';
 import SectionFooter from './SectionFooter';
 import Popup from './Popup';
@@ -27,6 +28,7 @@ function App() {
       <SectionMagistr/>
       <SectionArticles/>
       <SectionTeam/>
+      <SectionPartners/>
       <SectionContacts/>
       <SectionFooter/>
       <Popup isOpen={isPopupOpen} handleCardClick={handleCardClick}/>
