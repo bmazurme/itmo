@@ -1,0 +1,10 @@
+.popup__title {
+  width: 258px;
+  height: 30px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000D26;
+}

@@ -1,0 +1,12 @@
+.popup {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  /* padding: 20px; */
+  margin: 0;
+  position: relative;
+  width: 1110px;
+  height: 718px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}

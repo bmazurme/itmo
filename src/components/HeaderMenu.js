@@ -11,12 +11,13 @@ function HeaderMenu(props) {
       <ul className="nav__lists">
         {props.links.map((link, index) => 
           <li key={index} className="nav__list-size">
-            <Link href="link.path" className={`nav__list ${index===active ? 'nav__list-active' : ''}`} 
-              onClick={()=>handleClick(index)}
-              spy={true}
-              smooth={true}
-              to={link.path}>
-              {link.name}
+            <Link href={link.path} 
+                  className={`nav__list ${index===active ? 'nav__list-active' : ''}`} 
+                  onClick={()=>handleClick(index)}
+                  spy={true}
+                  smooth={true}
+                  to={link.path}>
+                  {link.name}
             </Link>
           </li>
         )}

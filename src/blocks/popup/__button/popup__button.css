@@ -1,0 +1,6 @@
+.popup__button {
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px/2 + 305px);
+  top: calc(50% - 40px/2);
+}
