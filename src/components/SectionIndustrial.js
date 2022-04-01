@@ -5,7 +5,7 @@ import img_left from '../images/image-38.png';
 
 function SectionIndustrial(props) {
   return(
-    <div className="section-industrial">
+    <section className="section-industrial">
       <h2 id="lab" className="section-industrial__title">
         INDUSTRIAL AI RESEARCH LAB
       </h2>
@@ -28,7 +28,8 @@ function SectionIndustrial(props) {
         </p>
 
         <img className="section-industrial__image" src={img_left} alt=''/>
-        <img className="section-industrial__image section-industrial__image_second" src={img_right} alt=''/>
+        <img className="section-industrial__image section-industrial__image_second" 
+             src={img_right} alt=''/>
       </div>
 
       <div className='section-industrial__cards'>
@@ -41,7 +42,7 @@ function SectionIndustrial(props) {
           />
         )}
       </div>
-    </div>
+    </section>
   );
 }
 

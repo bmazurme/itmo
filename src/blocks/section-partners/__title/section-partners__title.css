@@ -1,0 +1,18 @@
+.section-partners__title {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 472px;
+  height: 66px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;  
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
