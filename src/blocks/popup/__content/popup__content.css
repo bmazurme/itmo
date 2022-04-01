@@ -1,5 +1,4 @@
 .popup__content {
-  position: static;
   width: 650px;
   height: 625px;
   font-family: 'OpenSans';
@@ -8,5 +7,10 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.1px;
-  color: #000000; 
+  color: #000000;
+  grid-area: content;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }

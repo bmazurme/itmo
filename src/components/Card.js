@@ -11,6 +11,7 @@ function Card(props) {
   
   function handleClick() {
     setPopupOpened(true);
+    props.handleCardClick();
   }
 
   return(

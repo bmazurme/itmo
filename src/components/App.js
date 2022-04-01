@@ -8,19 +8,30 @@ import SectionProjects from './SectionProjects';
 import SectionMagistr from './SectionMagistr';
 import SectionContacts from './SectionContacts';
 import SectionFooter from './SectionFooter';
+import Popup from './Popup';
 
 function App() {
+  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+
+  function handleCardClick() {
+    console.log(isPopupOpen);
+    setIsPopupOpen(!isPopupOpen);
+  }
+
   return (
+    <>
     <div className='page'>
       <SectionHeader/>
-      <SectionIndustrial/>
+      <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects/>
       <SectionMagistr/>
       <SectionArticles/>
       <SectionTeam/>
       <SectionContacts/>
       <SectionFooter/>
+      <Popup isOpen={isPopupOpen} handleCardClick={handleCardClick}/>
     </div>
+    </>
   );
 }
 

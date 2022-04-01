@@ -7,4 +7,8 @@
   font-size: 18px;
   line-height: 30px;
   color: #000D26;
+  grid-area: title;
+  margin: 0;
+
+  padding: 0;
 }
