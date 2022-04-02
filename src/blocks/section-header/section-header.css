@@ -12,7 +12,7 @@
   padding: 0;
   background-image: url(../../images/Background-image.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   /* background-position: 0 0; */
   background-color: #001337;
 }
