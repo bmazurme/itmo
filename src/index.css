@@ -141,6 +141,7 @@
 
 @import url(./blocks/section-footer/section-footer.css);
 @import url(./blocks/section-footer/__container/section-footer__container.css);
+@import url(./blocks/section-footer/__mark/section-footer__mark.css);
 
 @import url(./blocks/table/table.css);
 @import url(./blocks/table/__column/table__column.css);
@@ -148,6 +149,15 @@
 @import url(./blocks/table/__list/table__list.css);
 @import url(./blocks/table/__item/table__item.css);
 @import url(./blocks/table/__title/table__title.css);
+@import url(./blocks/table/__copyright/table__copyright.css);
+@import url(./blocks/table/__info/table__info.css);
+
+@import url(./blocks/table/__first/table__first.css);
+@import url(./blocks/table/__second/table__second.css);
+@import url(./blocks/table/__third/table__third.css);
+
+@import url(./blocks/table/__icons/table__icons.css);
+
 
 @import url(./blocks/section-articles/section-articles.css);
 @import url(./blocks/section-articles/__title/section-articles__title.css);

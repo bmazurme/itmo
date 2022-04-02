@@ -8,24 +8,24 @@ function SectionFooter() {
   return(
     <section className="section-footer">
       <div className="section-footer__container">
-      <img className="logo__image" src={logoItmo} alt="Логотип" />
-
         <div className="table">
-          <div className="table__column">
-            <p className="table__paragraph">
-              Информация © 2020 Университет ИТМО
-            </p>
-            <p className="table__paragraph">
-              Национальный центр когнитивных разработок – 
-              центр национальной технологической инициативы 
-              (НТИ), получивший государственную поддержку по 
-              направлению «Технологии машинного обучения и 
-              когнитивные технологии». Инфраструктурная 
-              основа взаимодействия научных, образовательных 
-              и промышленных организаций
-            </p>
+          <img className="logo__image" src={logoItmo} alt="Логотип" />
+
+          <div className="table__copyright">
+            Информация © 2020 Университет ИТМО
           </div>
-          <div className="table__column">
+
+          <div className="table__info">
+            Национальный центр когнитивных разработок – 
+            центр национальной технологической инициативы 
+            (НТИ), получивший государственную поддержку по 
+            направлению «Технологии машинного обучения и 
+            когнитивные технологии». Инфраструктурная 
+            основа взаимодействия научных, образовательных 
+            и промышленных организаций
+          </div>
+
+          <div className="table__first">
             <ul className="table__list">
               {links.map((link, index) => 
                 <li key={index} className="table__item">{link.name}</li>
@@ -33,14 +33,15 @@ function SectionFooter() {
             </ul>
           </div>
 
-          <div className="table__column">
+          <div className="table__second">
           <ul  className="table__list">
               {links2.map((link, index) => 
                 <li key={index} className="table__item">{link.name}</li>
               )}
           </ul>
           </div>
-          <div className="table__column">
+
+          <div className="table__third">
             <h3 className="table__title">
               г.Санкт-Петербург
             </h3>
@@ -56,12 +57,17 @@ function SectionFooter() {
             <p>
               anna.lutsenko@itmo.ru
             </p>
-            <div className=""></div>
-            <Social icons={icons} type='lt'/>
+            <div className="table__icons">
+              <Social icons={icons} type='lt'/>
+            </div>
           </div>
         </div>
-
       </div>
+
+      <p className="section-footer__mark">
+        Сделано студентами Яндекс. Практикума
+      </p>
+      
     </section>
   );
 }
