@@ -1,6 +1,8 @@
 import logoItmo from "../images/logoItmo.svg";
 import Social from "./Social";
 import { icons } from "../data/social";
+import { links } from "../data/footer";
+import { links2 } from "../data/footer";
 
 function SectionFooter() {
   return(
@@ -25,23 +27,18 @@ function SectionFooter() {
           </div>
           <div className="table__column">
             <ul className="table__list">
-              <li className="table__item">О центре</li>
-              <li className="table__item">О нас</li>
-              <li className="table__item">Главная</li>
-              <li className="table__item">Команда</li>
-              <li className="table__item">Лаборатория</li>
-              <li className="table__item">Контакты</li>
+              {links.map((link, index) => 
+                <li key={index} className="table__item">{link.name}</li>
+              )}
             </ul>
           </div>
+
           <div className="table__column">
           <ul  className="table__list">
-              <li className="table__item">Развитие</li>
-              <li className="table__item">Образование</li>
-              <li className="table__item">Аспирантура</li>
-              <li className="table__item">Магистратура</li>
-              <li className="table__item">Публикации</li>
-              <li className="table__item">Проекты</li>
-            </ul>
+              {links2.map((link, index) => 
+                <li key={index} className="table__item">{link.name}</li>
+              )}
+          </ul>
           </div>
           <div className="table__column">
             <h3 className="table__title">
@@ -60,7 +57,7 @@ function SectionFooter() {
               anna.lutsenko@itmo.ru
             </p>
             <div className=""></div>
-            <Social icons={icons}/>
+            <Social icons={icons} type='lt'/>
           </div>
         </div>
 

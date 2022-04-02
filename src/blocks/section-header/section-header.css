@@ -1,6 +1,9 @@
 .section-header {
   max-width: 1440px;
+  width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
   /* max-height: 1403px; */
   /* margin-top: 0;
   margin-bottom: 0;
@@ -9,7 +12,7 @@
   padding: 0;
   background-image: url(../../images/Background-image.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0 0;
+  background-size: cover;
+  /* background-position: 0 0; */
   background-color: #001337;
 }

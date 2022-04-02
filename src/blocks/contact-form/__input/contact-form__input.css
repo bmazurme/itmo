@@ -1,5 +1,9 @@
 .contact-form__input {
-  width: 330px;
+  /* max-width: 330px; */
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  max-width: 330px;
   height: 60px;
   background: #FFFFFF;
   border-radius: 10px;
@@ -13,6 +17,7 @@
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.1px;
+  align-self: center;
 }
 
 .contact-form__input::placeholder {
@@ -23,4 +28,13 @@
   line-height: 20px;
   letter-spacing: 0.1px;
   color: #009FAC;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contact-form__input {
+    max-width: 268px;
+    width: 100%;
+    margin-bottom: 12px;
+
+  }
 }
