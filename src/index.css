@@ -187,3 +187,8 @@
 
 @import url(./blocks/logo-block/logo-block.css);
 @import url(./blocks/logo-block/__item/logo-block__item.css);
+@import url(./blocks/logo-block/__item/_sberbank/logo-block__item_sberbank.css);
+@import url(./blocks/logo-block/__item/_mail/logo-block__item_mail.css);
+@import url(./blocks/logo-block/__item/_siemens/logo-block__item_siemens.css);
+@import url(./blocks/logo-block/__item/_huawei/logo-block__item_huawei.css);
+@import url(./blocks/logo-block/__item/_rosneft/logo-block__item_rosneft.css);

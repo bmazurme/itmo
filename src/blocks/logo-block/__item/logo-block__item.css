@@ -9,3 +9,15 @@
   padding: 0;
   margin: 0;
 }
+
+.logo-block__item:first-child {
+  background-position:left;
+}
+
+.logo-block__item:last-child {
+  background-position:right;
+}
+
+.logo-block__item:nth-child(6) {
+  background-position:left;
+}
