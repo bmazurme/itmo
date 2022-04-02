@@ -16,8 +16,16 @@ function SectionPartners() {
           </p>
         </div>
         <div className="logo-block">
-          <div className=""></div>
-          <div className=""></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
+          <div className="logo-block__item"></div>
         </div>
       </div>
     </section>
