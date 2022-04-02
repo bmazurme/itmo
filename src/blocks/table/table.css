@@ -1,29 +1,54 @@
 .table {
   max-width: 1110px;
-  margin: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+
+  display: grid;
+  row-gap: 0;
+  column-gap: 0;
+  grid-template-columns: minmax(200px, 260px) 1fr 1fr 200px;
+  grid-template-rows: 54px 60px 1fr;
+  grid-template-areas: "logo      gap   gap    gap" 
+                       "copyright first second third"
+                       "info      first second third";
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .table {
-    /* max-width: 288px; */
     max-width: 767px;
     width: auto;
+    display: grid;
+    row-gap: 0;
+    column-gap: 0 ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 98px 126px 190px;
+    grid-template-areas: "logo      copyright" 
+                         "first     second"
+                         "third     third";
   }
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .table {
-    /* max-width: 690px; */
-    width: auto;
     max-width: 920px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+
+    display: grid;
+    row-gap: 30px;
+    column-gap: 0 ;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    grid-template-rows: 54px 60px 210px;
+    grid-template-areas: "logo      gap   gap    gap" 
+                         "copyright first second third"
+                         "info      first second third";
 
   }
 }
