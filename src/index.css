@@ -134,6 +134,10 @@
 
 @import url(./blocks/table/table.css);
 @import url(./blocks/table/__column/table__column.css);
+@import url(./blocks/table/__paragraph/table__paragraph.css);
+@import url(./blocks/table/__list/table__list.css);
+@import url(./blocks/table/__item/table__item.css);
+@import url(./blocks/table/__title/table__title.css);
 
 @import url(./blocks/section-articles/section-articles.css);
 @import url(./blocks/section-articles/__title/section-articles__title.css);

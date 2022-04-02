@@ -10,10 +10,10 @@ function SectionFooter() {
 
         <div className="table">
           <div className="table__column">
-            <p>
+            <p className="table__paragraph">
               Информация © 2020 Университет ИТМО
             </p>
-            <p>
+            <p className="table__paragraph">
               Национальный центр когнитивных разработок – 
               центр национальной технологической инициативы 
               (НТИ), получивший государственную поддержку по 
@@ -24,27 +24,27 @@ function SectionFooter() {
             </p>
           </div>
           <div className="table__column">
-            <ul>
-              <li>О центре</li>
-              <li>О нас</li>
-              <li>Главная</li>
-              <li>Команда</li>
-              <li>Лаборатория</li>
-              <li>Контакты</li>
+            <ul className="table__list">
+              <li className="table__item">О центре</li>
+              <li className="table__item">О нас</li>
+              <li className="table__item">Главная</li>
+              <li className="table__item">Команда</li>
+              <li className="table__item">Лаборатория</li>
+              <li className="table__item">Контакты</li>
             </ul>
           </div>
           <div className="table__column">
-          <ul>
-              <li>Развитие</li>
-              <li>Образование</li>
-              <li>Аспирантура</li>
-              <li>Магистратура</li>
-              <li>Публикации</li>
-              <li>Проекты</li>
+          <ul  className="table__list">
+              <li className="table__item">Развитие</li>
+              <li className="table__item">Образование</li>
+              <li className="table__item">Аспирантура</li>
+              <li className="table__item">Магистратура</li>
+              <li className="table__item">Публикации</li>
+              <li className="table__item">Проекты</li>
             </ul>
           </div>
           <div className="table__column">
-            <h3>
+            <h3 className="table__title">
               г.Санкт-Петербург
             </h3>
             <p>

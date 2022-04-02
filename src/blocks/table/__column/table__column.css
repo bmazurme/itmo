@@ -1,8 +1,12 @@
 .table__column {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   margin-top: 40px;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0;
-  width: 263px;
+  max-width: 265px;
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: 400;
@@ -11,9 +15,12 @@
 }
 
 .table__column:last-child {
-
   padding: 0;
-  width: 206px;
-
+  width: 210px;
   line-height: 19px;
+}
+
+.table__column:first-child {
+  margin-left: 0;
+  width: 100%;
 }

@@ -1,0 +1,15 @@
+.table__item {
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.table__item:first-child {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
