@@ -1,5 +1,6 @@
 .section-contacts {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 577px;
   background: #009FAC;
   padding: 0;

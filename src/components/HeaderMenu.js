@@ -8,7 +8,7 @@ function HeaderMenu(props) {
   }
   return(
     <nav className="nav__header">
-      <ul className="nav__lists">
+      <ul className="nav">
         {props.links.map((link, index) => 
           <li key={index} className="nav__list-size">
             <Link href={link.path} 

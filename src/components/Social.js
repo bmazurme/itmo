@@ -6,7 +6,7 @@ function Social(props) {
            className='social__link' 
            href={item.link} 
         >
-          <div className={`social__icon social__icon_${item.icon}`}/>
+          <div className={`social__icon ${props.type==='lt' && 'social__icon_lt'} ${props.type==='lt' ? `social__icon_${item.icon}-lt` : `social__icon_${item.icon}`}`}/>
         </a>
       )}
     </div>
