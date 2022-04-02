@@ -1,0 +1,19 @@
+.table__column {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  width: 263px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.table__column:last-child {
+
+  padding: 0;
+  width: 206px;
+
+  line-height: 19px;
+}

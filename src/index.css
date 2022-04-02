@@ -130,6 +130,10 @@
 @import url(./blocks/section-contacts/__content/section-contacts__content.css);
 
 @import url(./blocks/section-footer/section-footer.css);
+@import url(./blocks/section-footer/__container/section-footer__container.css);
+
+@import url(./blocks/table/table.css);
+@import url(./blocks/table/__column/table__column.css);
 
 @import url(./blocks/section-articles/section-articles.css);
 @import url(./blocks/section-articles/__title/section-articles__title.css);

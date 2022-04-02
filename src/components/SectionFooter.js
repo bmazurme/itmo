@@ -1,11 +1,15 @@
+import logoItmo from "../images/logoItmo.svg";
+import Social from "./Social";
+import { icons } from "../data/social";
+
 function SectionFooter() {
   return(
     <section className="section-footer">
       <div className="section-footer__container">
-        <div className="section-footer__logo"></div>
+      <img className="logo__image" src={logoItmo} alt="Логотип" />
 
-        <div className="section-footer__table">
-          <div className="">
+        <div className="table">
+          <div className="table__column">
             <p>
               Информация © 2020 Университет ИТМО
             </p>
@@ -19,7 +23,7 @@ function SectionFooter() {
               и промышленных организаций
             </p>
           </div>
-          <div className="">
+          <div className="table__column">
             <ul>
               <li>О центре</li>
               <li>О нас</li>
@@ -29,7 +33,7 @@ function SectionFooter() {
               <li>Контакты</li>
             </ul>
           </div>
-          <div className="">
+          <div className="table__column">
           <ul>
               <li>Развитие</li>
               <li>Образование</li>
@@ -39,7 +43,7 @@ function SectionFooter() {
               <li>Проекты</li>
             </ul>
           </div>
-          <div className="">
+          <div className="table__column">
             <h3>
               г.Санкт-Петербург
             </h3>
@@ -56,6 +60,7 @@ function SectionFooter() {
               anna.lutsenko@itmo.ru
             </p>
             <div className=""></div>
+            <Social icons={icons}/>
           </div>
         </div>
 
