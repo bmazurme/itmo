@@ -16,14 +16,14 @@ function SectionPartners() {
           </p>
         </div>
         <div className="logo-block">
-          <div className="logo-block__item"></div>
+          <div className="logo-block__item logo-block__item_gazprom"></div>
           <div className="logo-block__item logo-block__item_sberbank"></div>
           <div className="logo-block__item logo-block__item_mail"></div>
           <div className="logo-block__item logo-block__item_siemens"></div>
           <div className="logo-block__item logo-block__item_huawei"></div>
           <div className="logo-block__item logo-block__item_sberbank"></div>
           <div className="logo-block__item logo-block__item_rosneft"></div>
-          <div className="logo-block__item"></div>
+          <div className="logo-block__item logo-block__item_gazprom"></div>
           <div className="logo-block__item logo-block__item_huawei"></div>
           <div className="logo-block__item logo-block__item_mail"></div>
         </div>

@@ -2,3 +2,10 @@
   background-image: url(../../../../images/partners/huawei-logo.svg);
   background-size: 220px 48px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo-block__item_huawei {
+    background-size: contain;
+    max-width: 92px;
+  }
+}

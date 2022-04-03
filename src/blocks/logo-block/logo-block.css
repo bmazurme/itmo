@@ -1,5 +1,6 @@
 .logo-block {
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 146px;
   margin-top: 100px;
   margin-bottom: 0;
@@ -10,4 +11,25 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo-block {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    max-width: 735px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .logo-block {
+    max-width: 690px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
