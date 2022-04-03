@@ -1,4 +1,5 @@
 .section-partners__title {
+  align-self: center;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -15,4 +16,31 @@
   letter-spacing: 0.1px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .section-partners__title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    max-width: 767px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .section-partners__title {
+    height: 33px;
+    max-width: 1023px;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
 }

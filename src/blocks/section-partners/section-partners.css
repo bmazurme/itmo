@@ -1,8 +1,32 @@
 .section-partners {
   max-width: 1440px;
   width: 100%;
-  /* height: 522px; */
-  height: 400px;;
+  height: 400px;
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .section-partners {
+    max-width: 767px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .section-partners {
+    max-width: 1023px;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

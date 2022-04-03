@@ -2,3 +2,10 @@
   background-image: url(../../../../images/partners/Sberbank.svg);
   background-size: 194px 48px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo-block__item_sberbank {
+    background-size: contain;
+    max-width: 148px;
+  }
+}
