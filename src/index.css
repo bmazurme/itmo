@@ -94,23 +94,22 @@
 @import url(./blocks/card-news/__line/card-news__line.css);
 @import url(./blocks/card-news/__pin/card-news__pin.css);
 
-@import url(./blocks/card-magistr/card-magistr.css);
-@import url(./blocks/card-magistr/__box/card-magistr__box.css);
-@import url(./blocks/card-magistr/__icon/card-magistr__icon.css);
-@import url(./blocks/card-magistr/__content/card-magistr__content.css);
-@import url(./blocks/card-magistr/__image/card-magistr__image.css);
-@import url(./blocks/card-magistr/__link/card-magistr__link.css);
-@import url(./blocks/card-magistr/__list/card-magistr__list.css);
-@import url(./blocks/card-magistr/__title/card-magistr__title.css);
+@import url(./blocks/card-education/card-education.css);
+@import url(./blocks/card-education/__box/card-education__box.css);
+@import url(./blocks/card-education/__icon/card-education__icon.css);
+@import url(./blocks/card-education/__image/card-education__image.css);
+@import url(./blocks/card-education/__link/card-education__link.css);
+@import url(./blocks/card-education/__list/card-education__list.css);
+@import url(./blocks/card-education/__title/card-education__title.css);
 
 @import url(./blocks/section-header/section-header.css);
-@import url(./blocks/section-magistr/section-magistr.css);
-@import url(./blocks/section-magistr/__title/section-magistr__title.css);
-@import url(./blocks/section-magistr/__content/section-magistr__content.css);
+@import url(./blocks/section-education/section-education.css);
+@import url(./blocks/section-education/__title/section-education__title.css);
+@import url(./blocks/section-education/__content/section-education__content.css);
 
 @import url(./blocks/switcher/switcher.css);
 @import url(./blocks/switcher/__button/switcher__button.css);
-@import url(./blocks/switcher/__button/_white/section-magistr__button_white.css);
+@import url(./blocks/switcher/__button/_white/switcher__button_white.css);
 
 @import url(./blocks/section-industrial/section-industrial.css);
 @import url(./blocks/section-industrial/__title/section-industrial.css);
