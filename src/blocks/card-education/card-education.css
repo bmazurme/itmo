@@ -1,0 +1,68 @@
+/* .card-education {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "box image" 
+                       "link image";
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1169px;
+  height: 429px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.card-education {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "box image" 
+                       "link image";
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-left: 135px;
+  margin-right: 135px;
+  max-width: 1169px;
+  width: auto;
+  height: 429px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card-education {
+    grid-template-columns: minmax(288px, 767px); 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "image" 
+                         "box"
+                         "link";
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    max-width: 288px;
+    height: 522px;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .card-education {
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box image" 
+                         "link image";
+    /* max-width: 690px; */
+    height: 322px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.card-education__title {
+  max-width: 635px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #000D26;  
+}

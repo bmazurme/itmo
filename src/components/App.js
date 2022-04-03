@@ -5,7 +5,7 @@ import SectionArticles from './SectionArticles';
 import SectionTeam from './SectionTeam';
 import SectionIndustrial from './SectionIndustrial';
 import SectionProjects from './SectionProjects';
-import SectionMagistr from './SectionMagistr';
+import SectionEducation from './SectionEducation';
 import SectionPartners from './SectionPartners';
 import SectionContacts from './SectionContacts';
 import SectionFooter from './SectionFooter';
@@ -25,7 +25,7 @@ function App() {
       <SectionHeader/>
       <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects/>
-      <SectionMagistr/>
+      <SectionEducation/>
       <SectionArticles/>
       <SectionTeam/>
       <SectionPartners/>

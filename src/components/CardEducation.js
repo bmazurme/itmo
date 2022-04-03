@@ -1,29 +1,29 @@
 import { cards } from "../data/education";
 
-function CardMagistr(props) {
+function CardEducation(props) {
   const card = props.slide ? cards[1] : cards[0];
   return(
-    <div className="card-magistr">
-      <div className="card-magistr__box">
-        <h2 className="card-magistr__title">
+    <div className="card-education">
+      <div className="card-education__box">
+        <h2 className="card-education__title">
           {card.title}
         </h2>
-        <ul className="card-magistr__list">
+        <ul className="card-education__list">
           {card.list.map((item, index) => 
             <li key={index}>{item}</li>
           )}
         </ul>
       </div>
-      <a className="card-magistr__link" 
+      <a className="card-education__link" 
          href="#">
           Подробнее
-        <div className="card-magistr__icon"/>  
+        <div className="card-education__icon"/>  
       </a>
       <img src={card.slide} 
            alt="" 
-           className="card-magistr__image"/>
+           className="card-education__image"/>
     </div>
   );
 }
 
-export default CardMagistr;
+export default CardEducation;
