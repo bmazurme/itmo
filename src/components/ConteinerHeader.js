@@ -5,12 +5,11 @@ import { cards } from "../data/news";
 import Pagination from "./Pagination";
 import React from "react";
 import { sliceArray, getDots, shiftPages } from "../utils/utils";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
-function ConteinerHeader() {
-  const step = 3;
-  const dots = getDots(cards, step);
-  const arrSlides = sliceArray(cards, step);
+function ConteinerHeader(props) {
+  const dots = getDots(cards, props.step);
+  const arrSlides = sliceArray(cards, props.step);
   const [dot, setDot] = React.useState(0);
   const [pages, setPages] = React.useState(arrSlides);
 
@@ -18,6 +17,10 @@ function ConteinerHeader() {
     const _dot = shiftPages(val, dot, pages);
     setDot(_dot);
   }
+
+  React.useEffect(() => {
+    setPages(sliceArray(cards, props.step));
+  }, [props.step] );
    
   return (
     <div className="conteiner">
