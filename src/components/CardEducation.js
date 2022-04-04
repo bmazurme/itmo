@@ -14,14 +14,16 @@ function CardEducation(props) {
           )}
         </ul>
       </div>
+
+      <img 
+      src={card.slide} 
+           alt="" 
+           className="card-education__image"/>
       <a className="card-education__link" 
          href="#">
           Подробнее
         <div className="card-education__icon"/>  
       </a>
-      <img src={card.slide} 
-           alt="" 
-           className="card-education__image"/>
     </div>
   );
 }

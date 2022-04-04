@@ -97,7 +97,9 @@
 @import url(./blocks/card-education/card-education.css);
 @import url(./blocks/card-education/__box/card-education__box.css);
 @import url(./blocks/card-education/__icon/card-education__icon.css);
+
 @import url(./blocks/card-education/__image/card-education__image.css);
+
 @import url(./blocks/card-education/__link/card-education__link.css);
 @import url(./blocks/card-education/__list/card-education__list.css);
 @import url(./blocks/card-education/__title/card-education__title.css);
