@@ -4,12 +4,15 @@ import { sliceArray, getDots, shiftPages } from "../utils/utils";
 import React from "react";
 import { cards } from "../data/article";
 
-function SectionArticles() {
-  const step = 3;
-  const dots = getDots(cards, step);
-  const arrSlides = sliceArray(cards, step);
+function SectionArticles(props) {
+  const dots = getDots(cards, props.step);
+  const arrSlides = sliceArray(cards, props.step);
   const [dot, setDot] = React.useState(0);
   const [pages, setPages] = React.useState(arrSlides);
+
+  React.useEffect(() => {
+    setPages(sliceArray(cards, props.step));
+  }, [props.step] );
 
   function handleClick(val) {
     const _dot = shiftPages(val, dot, pages);

@@ -1,7 +1,5 @@
 .section-partners__text {
   width: 920px;
-  font-family: 'OpenSans';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -32,7 +30,6 @@
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .section-partners__text {
-    /* height: 140px; */
     max-width: 690px;
     font-weight: 400;
     font-size: 14px;

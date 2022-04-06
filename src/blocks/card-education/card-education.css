@@ -1,22 +1,3 @@
-/* .card-education {
-  display: grid;
-  gap: 0;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "box image" 
-                       "link image";
-  flex-direction: row;
-  align-items: flex-start;
-  width: 1169px;
-  height: 429px;
-  background: #FFFFFF;
-  border-radius: 10px;
-  margin-top: 60px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .card-education {
   position: relative;
   display: grid;
@@ -28,8 +9,6 @@
   padding: 0;
   margin-top: 60px;
   margin-bottom: 0;
-  /* margin-left: 135px;
-  margin-right: 135px; */
   margin-left: auto;
   margin-right: auto;
   max-width: 1160px;

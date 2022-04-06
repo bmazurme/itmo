@@ -3,7 +3,7 @@ import arrow from '../images/arrow-right.svg';
 import { cards } from "../data/project";
 import Tab from "./Tab";
 
-function SectionProjects() {
+function SectionProjects(props) {
   return(
     <section className="section-projects">
       <h2 id="projects" className="section-projects__title">НАШИ ПРОЕКТЫ</h2>
