@@ -1,14 +1,11 @@
 .card-article__button {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   align-items: flex-start;  
   width: 348px;
   height: 70px;
   background: #009FAC;
   border-radius: 0px 0px 10px 10px;
   margin: 0;
-  /* margin-top: 5px; */
   padding: 0;
-
 }

@@ -1,8 +1,24 @@
 .section-projects__tabs {
-    max-width: 1110px;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 165px 60px;
-    list-style: none;
-    padding: 0;
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 165px 60px;
+  list-style: none;
+  padding: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .section-projects__tabs {
+      width: 288px;
+
+    }
+  }
+  
+  @media screen and (min-width: 768px) and ( max-width: 1023px)  {
+    .section-projects__tabs {
+      max-width: 690px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }

@@ -40,10 +40,10 @@ function App() {
     <div className='page'>
       <SectionHeader step={step}/>
       <SectionIndustrial handleCardClick={handleCardClick}/>
-      <SectionProjects/>
+      <SectionProjects step={step + 1}/>
       <SectionEducation/>
-      <SectionArticles/>
-      <SectionTeam/>
+      <SectionArticles step={step}/>
+      <SectionTeam step={step + 1}/>
       <SectionPartners/>
       <SectionContacts/>
       <SectionFooter/>

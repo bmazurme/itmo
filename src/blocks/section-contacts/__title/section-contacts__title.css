@@ -3,8 +3,6 @@
   flex-direction: row;
   justify-content: center;
   height: 68px;
-  font-family: 'OpenSans';
-  font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 68px;
@@ -18,7 +16,6 @@
   margin-left: 165px;
   margin-right: 165px;
 }
-
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .section-contacts__title {

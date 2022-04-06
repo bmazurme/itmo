@@ -4,10 +4,9 @@ import { cards } from '../data/team';
 import React from "react";
 import { sliceArray, getDots, shiftPages } from "../utils/utils";
 
-function SectionTeam() {
-  const step = 4;
-  const dots = getDots(cards, step);
-  const arrSlides = sliceArray(cards, step);
+function SectionTeam(props) {
+  const dots = getDots(cards, props.step);
+  const arrSlides = sliceArray(cards, props.step);
   const [dot, setDot] = React.useState(0);
   const [pages, setPages] = React.useState(arrSlides);
 
@@ -15,6 +14,10 @@ function SectionTeam() {
     const _dot = shiftPages(val, dot, pages);
     setDot(_dot);
   }
+
+  React.useEffect(() => {
+    setPages(sliceArray(cards, props.step));
+  }, [props.step] );
 
   return(
     <section className="section-team">
