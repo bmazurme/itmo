@@ -12,15 +12,16 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .card {
-    height: 224px;
-    width: 140px;
-
+    max-width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
-  .card {
-    height: 242px;
-    width: 150px;
+  .card-news {
+    max-width: calc(1023px - 80px);
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }

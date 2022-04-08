@@ -1,7 +1,25 @@
 .cards {
   display: flex;
   max-width: 1122px;
+  width: 100%;
   flex-direction: row;
   margin: 0 auto;
-  align-self: flex-start;
+  justify-content: center;
+  /* align-self: flex-start; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cards {
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .cards {
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
 }

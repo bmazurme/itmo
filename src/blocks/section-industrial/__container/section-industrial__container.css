@@ -1,12 +1,13 @@
 .section-industrial__container {
   display: grid;
   gap: 0;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr  264px 264px;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: "text-top    img-first img-second" 
                        "text-bottom img-first img-second";
 
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 276px;
   margin-top: 60px;
   margin-bottom: 0;
