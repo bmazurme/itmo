@@ -12,6 +12,7 @@
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -20,6 +21,7 @@
     line-height: 16px;
     max-width: 290px;
     width: calc(100% - 32px);
+    height: 112px;
   }
 }
 
