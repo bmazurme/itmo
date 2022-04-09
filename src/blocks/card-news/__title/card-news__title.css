@@ -1,5 +1,6 @@
 .card-news__title {
-  max-width: 308px;
+  width: calc(100% - 40px);
+  /* max-width: 308px; */
   max-height: 90px;
   height: 100%;
   font-weight: 600;
@@ -20,12 +21,14 @@
     margin-right: 16px;
     font-size: 14px;
     line-height: 19px;
+    width: calc(100% - 32px);
 
   }
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .card-news__title {
+    
 
   }
 }
