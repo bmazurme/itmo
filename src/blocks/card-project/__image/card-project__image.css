@@ -5,7 +5,28 @@
   margin-right: 20px;
   padding: 0;
   height: 48px;
+  width: 112px;
   background-image: url(../../../images/gazprom.svg);
-  background-size: 112px 48px;
+  background-size: cover;
   background-repeat:no-repeat;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card-project__image {
+    width: 60px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .card-project__image {
+    margin-top: 16px;
+    margin-bottom: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
