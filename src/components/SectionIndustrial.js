@@ -5,7 +5,7 @@ import img_left from '../images/image-38.png';
 
 function SectionIndustrial(props) {
   return(
-    <section className="section-industrial">
+    <section className="section section_industrial">
       <h2 id="lab" className="section-industrial__title">
         INDUSTRIAL AI RESEARCH LAB
       </h2>

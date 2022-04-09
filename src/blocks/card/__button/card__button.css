@@ -27,12 +27,21 @@
   .card__button {
     max-width: 120px;
     max-height: 32px;
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .card__button {
     max-width: 126px;
+    width: 100%;
     max-height: 32px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 12px;
   }
 }
