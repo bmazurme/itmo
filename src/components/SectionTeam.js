@@ -20,7 +20,7 @@ function SectionTeam(props) {
   }, [props.step] );
 
   return(
-    <section className="section-team">
+    <section className="section section_team">
       <h2 id="team" className="section-team__title">
         НАША КОМАНДА
       </h2>

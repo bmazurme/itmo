@@ -1,6 +1,6 @@
 function SectionPartners() {
   return(
-    <section className="section-partners">
+    <section className="section section_partners">
       <div className="section-partners__container">
         <h2 className="section-partners__title">с кем мы работаем</h2>
         <div className="section-partners__text">

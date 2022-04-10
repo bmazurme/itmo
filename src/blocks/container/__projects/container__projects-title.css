@@ -1,0 +1,10 @@
+.container__projects-title {
+    margin: 0;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}

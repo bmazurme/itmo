@@ -2,7 +2,7 @@ import ContactForm from "./ContactForm";
 
 function SectionContacts() {
   return(
-    <section className="section-contacts">
+    <section className="section section_contacts">
       <h2 id="contacts" className="section-contacts__title">
         ВСЕГДА НА СВЯЗИ
       </h2>

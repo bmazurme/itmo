@@ -8,7 +8,7 @@ function SectionEducation() {
     setSlide(val);
   }
   return(
-    <section className="section-education">
+    <section className="section section_education">
       <h2 id="education" className="section-education__title">ОБРАЗОВАНИЕ</h2>
       <p className="section-education__content">
         В образовательной деятельности НЦКР активно использует существующую 

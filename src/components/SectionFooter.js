@@ -6,7 +6,7 @@ import { links2 } from "../data/footer";
 
 function SectionFooter() {
   return(
-    <section className="section-footer">
+    <section className="section section_footer">
       <div className="section-footer__container">
         <div className="table">
           <img className="logo__image" src={logoItmo} alt="Логотип" />
