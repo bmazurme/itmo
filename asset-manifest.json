@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/itmo/static/css/main.59e0b5e1.css",
+    "main.css": "/itmo/static/css/main.50986c50.css",
     "main.js": "/itmo/static/js/main.3528278a.js",
     "static/js/787.a89d4e5f.chunk.js": "/itmo/static/js/787.a89d4e5f.chunk.js",
     "static/media/Machine-learning.svg": "/itmo/static/media/Machine-learning.a1315832ca4dd8cc62c1.svg",
@@ -58,12 +58,12 @@
     "static/media/arrow-right-lt.svg": "/itmo/static/media/arrow-right-lt.eb4e9881f188ccaccaa4.svg",
     "static/media/arrow-right.svg": "/itmo/static/media/arrow-right.101f2ccf63531f17fe6bbe05efd601d9.svg",
     "static/media/triangle-icon.svg": "/itmo/static/media/triangle-icon.d65581046b8338769044.svg",
-    "main.59e0b5e1.css.map": "/itmo/static/css/main.59e0b5e1.css.map",
+    "main.50986c50.css.map": "/itmo/static/css/main.50986c50.css.map",
     "main.3528278a.js.map": "/itmo/static/js/main.3528278a.js.map",
     "787.a89d4e5f.chunk.js.map": "/itmo/static/js/787.a89d4e5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59e0b5e1.css",
+    "static/css/main.50986c50.css",
     "static/js/main.3528278a.js"
   ]
 }
