@@ -1,11 +1,11 @@
 import Header from "./Header";
-import ConteinerHeader from "./ConteinerHeader";
+import ContainerHeader from "./ContainerHeader";
 
 function SectionHeader(props) {
   return(
-    <section className="section-header">
+    <section className="section section_header">
       <Header />
-      <ConteinerHeader step={props.step} 
+      <ContainerHeader step={props.step} 
                         dots={props.dots} 
                         dot={props.dot} 
                         pages={props.pages} 

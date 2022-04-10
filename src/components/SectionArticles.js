@@ -12,7 +12,7 @@ function SectionArticles(props) {
 
   React.useEffect(() => {
     setPages(sliceArray(cards, props.step));
-  }, [props.step] );
+  }, [props.step] )
 
   function handleClick(val) {
     const _dot = shiftPages(val, dot, pages);
@@ -20,7 +20,7 @@ function SectionArticles(props) {
   }
 
   return(
-    <section className="section-articles">
+    <section className="section section_articles">
       <h2 id="articles" className="section-articles__title">
         Публикации
       </h2>

@@ -42,4 +42,25 @@ export const cards = [
       'Nikolay B…'],
       img: ''
   }, 
+  {
+    title: 'Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…', 
+    content: 'One of the areas that gathers momentum is the investigation of location-based social networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living, enhance urban management, and advance the development of smart cities. But it is widely known that the…',
+    tags: [
+      'Ksenia Mukhina',
+      'Alexander Visheratin', 
+      'Denis Nasonov'],
+      img: ''
+  },
+  {
+    title: 'Peregreen–modular database for efficient storage of historical tim…', 
+    content: 'One of the areas that gathers momentum is the investigation of location-based social networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living, enhance urban management, and advance the development of smart cities. But it is widely known that the…',
+    tags: [
+      'Alexander Visheratin', 
+      'Alexey Struckov', 
+      'Semen Yufa',
+      'Alexey Muratov',
+      'Denis Nasonov',
+      'Nikolay B…'],
+      img: ''
+  }, 
 ];

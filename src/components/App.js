@@ -14,6 +14,7 @@ import Popup from './Popup';
 function App() {
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);
   const [step, setStep] = React.useState(3);
+  const [stepArticle, setStepArticle] = React.useState(6);
 
   function handleCardClick() {
     setIsPopupOpen(!isPopupOpen);
@@ -27,22 +28,26 @@ function App() {
   }, []);
 
   function handleWindowResize() {
-    if (window.innerWidth < 767) {
-      setStep(2);
-    } else {
+    if (window.innerWidth > 1024) {
+      setStepArticle(6);
       setStep(3);
+    } else if (window.innerWidth > 768) {
+      setStep(3);
+      setStepArticle(4);
+    } else {
+      setStep(2);
+      setStepArticle(1);
     }
   };
-  
 
   return (
     <>
-    <div className='page'>
+    <div className='page' >
       <SectionHeader step={step}/>
       <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects step={step + 1}/>
       <SectionEducation/>
-      <SectionArticles step={step}/>
+      <SectionArticles step={stepArticle}/>
       <SectionTeam step={step + 1}/>
       <SectionPartners/>
       <SectionContacts/>

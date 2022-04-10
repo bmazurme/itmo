@@ -9,3 +9,17 @@
   line-height: 30px;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card-article__link {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .card-article__link {
+
+  }
+}

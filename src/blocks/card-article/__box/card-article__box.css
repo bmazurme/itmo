@@ -1,10 +1,23 @@
-.card-article__box{
+.card-article__box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 0;
   padding: 0;
+  max-height: 548px;
   height: 100%;
   background: #FFFFFF;
   border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card-article__box {
+    width: 256px;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .card-article__box {
+    width: 290px;
+  }
 }
