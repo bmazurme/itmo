@@ -1,6 +1,5 @@
 .card-news__title {
   width: calc(100% - 40px);
-  /* max-width: 308px; */
   max-height: 90px;
   height: 100%;
   font-weight: 600;
@@ -13,6 +12,7 @@
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
