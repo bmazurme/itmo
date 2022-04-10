@@ -1,0 +1,30 @@
+.section-projects__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.section-projects__link:active {
+  border-bottom: 5px solid #009FAC;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .section-projects__link {
+      width: 288px;
+      text-align: left;
+      align-items:flex-start;
+      justify-content:flex-start;
+
+    }
+  }
+  
+  @media screen and (min-width: 768px) and ( max-width: 1023px)  {
+    .section-projects__link {
+        width: 140px;
+    }
+  }
