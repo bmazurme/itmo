@@ -1,0 +1,28 @@
+.header__button {
+  display: none;
+  background-image: url(../../../images/burger-menu.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__button {
+    display: flex;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px)  {
+  .header__button {
+    display: flex;
+    width: 24px;
+    height: 24px;
+  }
+}

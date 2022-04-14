@@ -9,7 +9,7 @@
 @import url(./blocks/header/__container/header__container.css);
 
 /* log */
-@import url(./blocks/logo/__image/logo__image.css);
+@import url(./blocks/logo/logo.css);
 
 /* container */
 @import url(./blocks/container/container.css);
@@ -191,7 +191,11 @@
 @import url(./blocks/section-articles/__cards/section-articles__cards.css);
 
 
-@import url(./blocks/nav/__header/nav__header.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__button/header__button.css);
+
+
+
 @import url(./blocks/nav/nav.css);
 @import url(./blocks/nav/__list/nav__list.css);
 @import url(./blocks/nav/__list/nav__list-size.css);
@@ -242,7 +246,7 @@
 
 @import url(./blocks/logo-block/logo-block.css);
 @import url(./blocks/logo-block/__item/logo-block__item.css);
-@import url(./blocks/logo-block/__item/_gazprom/logo-block__item_gazprom.css);
+/* @import url(./blocks/logo-block/__item/_gazprom/logo-block__item_gazprom.css); */
 @import url(./blocks/logo-block/__item/_sberbank/logo-block__item_sberbank.css);
 @import url(./blocks/logo-block/__item/_mail/logo-block__item_mail.css);
 @import url(./blocks/logo-block/__item/_siemens/logo-block__item_siemens.css);

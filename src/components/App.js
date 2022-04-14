@@ -11,6 +11,8 @@ import SectionContacts from './SectionContacts';
 import SectionFooter from './SectionFooter';
 import Popup from './Popup';
 
+import SectionAbout from './SectionAbout';
+
 function App() {
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);
   const [step, setStep] = React.useState(3);
@@ -44,6 +46,7 @@ function App() {
     <>
     <div className='page' >
       <SectionHeader step={step}/>
+      {/* <SectionAbout /> */}
       <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects step={step + 1}/>
       <SectionEducation/>

@@ -7,22 +7,24 @@ function HeaderMenu(props) {
     setActive(index);
   }
   return(
-    <nav className="nav__header">
-      <ul className="nav">
-        {props.links.map((link, index) => 
-          <li key={index} className="nav__list-size">
-            <Link href={link.path} 
-                  className={`nav__list ${index===active ? 'nav__list-active' : ''}`} 
-                  onClick={()=>handleClick(index)}
-                  spy={true}
-                  smooth={true}
-                  to={link.path}>
-                  {link.name}
-            </Link>
-          </li>
-        )}
-      </ul>
-    </nav>
+    <>
+      <nav className="header__menu">
+        <ul className="nav">
+          {props.links.map((link, index) => 
+            <li key={index} className="nav__list-size">
+              <Link href={link.path} 
+                    className={`nav__list ${index===active ? 'nav__list-active' : ''}`} 
+                    onClick={()=>handleClick(index)}
+                    spy={true}
+                    smooth={true}
+                    to={link.path}>
+                    {link.name}
+              </Link>
+            </li>
+          )}
+        </ul>
+      </nav>
+    </>
   );
 }
 
