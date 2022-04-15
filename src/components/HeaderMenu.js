@@ -6,14 +6,17 @@ function HeaderMenu(props) {
   function handleClick(index) {
     setActive(index);
   }
+  
   return(
     <>
-      <nav className="header__menu">
-        <ul className="nav">
+      <nav className={`header__menu ${props.isOpen ? 'menu_opened' : ''}`}>
+        <ul className={`menu`}>
+        <li onClick={props.handleClick} className="menu__item menu__item_close"/>
+          
           {props.links.map((link, index) => 
-            <li key={index} className="nav__list-size">
+            <li key={index} className="menu__item">
               <Link href={link.path} 
-                    className={`nav__list ${index===active ? 'nav__list-active' : ''}`} 
+                    className={`menu__link ${index===active ? 'menu__link_active' : ''}`} 
                     onClick={()=>handleClick(index)}
                     spy={true}
                     smooth={true}

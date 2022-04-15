@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-items: center;
   max-width: 1440px;
-  /* width: 100%; */
   margin: 0;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -17,7 +16,6 @@
   .header {
     padding-left: 18px;
     padding-right: 18px;
-
   }
 }
 
@@ -25,5 +23,12 @@
   .header {
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) and ( max-width: 1220px)  {
+  .header {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }

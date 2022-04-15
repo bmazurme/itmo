@@ -9,6 +9,8 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

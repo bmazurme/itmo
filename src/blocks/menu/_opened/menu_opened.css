@@ -1,0 +1,9 @@
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .menu_opened {
+    display: flex;
+    position: absolute;
+    background-color: #000D26;
+    width: 320px;
+    height: 480px;
+  }
+}

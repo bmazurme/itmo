@@ -196,9 +196,12 @@
 
 
 
-@import url(./blocks/nav/nav.css);
-@import url(./blocks/nav/__list/nav__list.css);
-@import url(./blocks/nav/__list/nav__list-size.css);
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/__item/menu__item.css);
+@import url(./blocks/menu/__item/_close/menu__item_close.css);
+@import url(./blocks/menu/__link/menu__link.css);
+@import url(./blocks/menu/__link/_active/menu__link_active.css);
+@import url(./blocks/menu/_opened/menu_opened.css);
 
 @import url(./blocks/contact-form/contact-form.css);
 @import url(./blocks/contact-form/__button/contact-form__button.css);

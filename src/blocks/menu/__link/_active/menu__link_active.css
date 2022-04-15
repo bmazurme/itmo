@@ -1,0 +1,23 @@
+.menu__link_active::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #009FAC;
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transition: opacity .1s linear;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .menu__link_active {
+    opacity: 1;
+    font-weight: 600;
+  }
+  .menu__link_active::after {
+    background:none;
+  }
+}

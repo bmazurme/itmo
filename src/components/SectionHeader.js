@@ -6,10 +6,10 @@ function SectionHeader(props) {
     <section className="section section_header">
       <Header />
       <ContainerHeader step={props.step} 
-                        dots={props.dots} 
-                        dot={props.dot} 
-                        pages={props.pages} 
-                        handleClick={props.handleClick}/>
+                       dots={props.dots} 
+                       dot={props.dot} 
+                       pages={props.pages} 
+                       handleClick={props.handleClick}/>
     </section>
   );
 }
