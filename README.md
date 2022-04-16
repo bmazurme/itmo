@@ -12,6 +12,7 @@
 * Run app: `npm start`
 
 * `npm i -S react-scroll`
+* `npm install swiper`
 
 ToDo:
 
@@ -45,6 +46,8 @@ ToDo:
 
 * [Макет](https://www.figma.com/file/1V8lzi168fbxjb5cm5gVj0/PAGE-SG_ITMO?node-id=0%3A1)
 * [UI kit](https://www.figma.com/file/1V8lzi168fbxjb5cm5gVj0/PAGE-SG_ITMO?node-id=1146%3A9181)
+* [Swiper](https://swiperjs.com/get-started)
+* [Scroll](https://www.npmjs.com/package/react-scroll)
 
 
 ### Стек технологий
