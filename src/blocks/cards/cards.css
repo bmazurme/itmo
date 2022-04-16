@@ -1,23 +1,26 @@
 .cards {
   display: flex;
-  max-width: 1122px;
   width: 100%;
+  /* width: 1110px; */
   flex-direction: row;
   margin: 0 auto;
-  justify-content: center;
   /* align-self: flex-start; */
+  justify-content: start;
+  /* overflow: hidden; */
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cards {
-    margin-left: 16px;
-    margin-right: 16px;
+    /* margin-left: 16px;
+    margin-right: 16px; */
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .cards {
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content: center;
+    /* margin-left: 40px;
+    margin-right: 40px; */
   }
 }

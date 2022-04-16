@@ -44,6 +44,4 @@ export const cards = [
     position: `Начальник, профессор, ДТН`,
     photo: require('../images/people/Women.jpg')
   },
-
-
 ];

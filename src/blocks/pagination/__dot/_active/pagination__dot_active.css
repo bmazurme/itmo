@@ -3,3 +3,8 @@
   /* background-color: brown; */
   opacity: 1;
 }
+
+.swiper-pagination-bullet-active {
+  background: #E0F0FF;
+  opacity: 1;
+}

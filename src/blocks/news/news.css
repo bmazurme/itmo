@@ -1,0 +1,7 @@
+.news {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+
+  position: relative;
+}

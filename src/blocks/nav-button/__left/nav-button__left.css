@@ -1,5 +1,14 @@
 .nav-button__left {
-  left: 50px;
+  /* left: 50px; */
+  left: -80px;
+  background-image: url(../../../images/team/arrow-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 36px;
+}
+
+.swiper-button-prev {
+  left: -80px;
   background-image: url(../../../images/team/arrow-down.svg);
   background-position: center;
   background-repeat: no-repeat;

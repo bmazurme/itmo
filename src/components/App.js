@@ -21,6 +21,7 @@ function App() {
   function handleCardClick() {
     setIsPopupOpen(!isPopupOpen);
   }
+  
 
   React.useEffect(() => {
     window.addEventListener('resize', handleWindowResize);
@@ -34,16 +35,23 @@ function App() {
       setStepArticle(6);
       setStep(3);
     } else if (window.innerWidth > 768) {
-      setStep(3);
+      setStep(2);
       setStepArticle(4);
     } else {
-      setStep(2);
+      setStep(1);
       setStepArticle(1);
     }
   };
 
+  document.onreadystatechange = function(){
+    if(document.readyState === 'complete'){
+       // Ваш скрипт
+       handleWindowResize()
+    }
+ }
   return (
     <>
+    
     <div className='page' >
       <SectionHeader step={step}/>
       {/* <SectionAbout /> */}

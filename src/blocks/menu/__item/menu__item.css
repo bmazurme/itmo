@@ -7,9 +7,13 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu__item {
+    width: 100%;
+    justify-content: start;
+  }
   .menu__item:hover {
     /* background-color: #001337; */
-    /* background-color: aqua; */
+    display: flex;
   }
 }
     
@@ -17,8 +21,6 @@
   .menu__item {
     width: 100%;
     justify-content: start;
-    /* padding-left: 24px;
-    padding-right: 24px; */
   }
   .menu__item:hover {
     background-color: #001337;

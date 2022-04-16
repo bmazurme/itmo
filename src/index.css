@@ -194,6 +194,8 @@
 @import url(./blocks/header/__menu/header__menu.css);
 @import url(./blocks/header/__button/header__button.css);
 
+@import url(./blocks/news/news.css);
+
 
 
 @import url(./blocks/menu/menu.css);
@@ -215,7 +217,7 @@
 @import url(./blocks/section/_team/section_team.css);
 @import url(./blocks/section-team/__title/section-team__title.css);
 @import url(./blocks/section-team/__cards/sectiom-team__cards.css);
-@import url(./blocks/section-team/__group/sectiom-team__group.css);
+
 
 @import url(./blocks/pagination/pagination.css);
 @import url(./blocks/pagination/__dot/pagination__dot.css);
@@ -258,3 +260,5 @@
 
 
 @import url(./blocks/section/_industrial/section_industrial.css);
+
+@import url(./blocks/swiper/swiper.css);

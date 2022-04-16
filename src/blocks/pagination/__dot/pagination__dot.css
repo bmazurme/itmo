@@ -7,3 +7,22 @@
   padding: 0;
   margin: 0;
 }
+
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
+  width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+  height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--swiper-pagination-bullet-inactive-color,#fff);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+  cursor: pointer;
+}
