@@ -1,0 +1,8 @@
+.projects__numbers {
+  max-width: 344px;
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  position: relative;
+}

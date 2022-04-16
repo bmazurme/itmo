@@ -6,28 +6,28 @@ import Tab from "./Tab";
 function SectionProjects(props) {
   return(
     <section className="section section_projects">
-      <h2 id="projects" className="section-projects__title">НАШИ ПРОЕКТЫ</h2>
+      <h2 id="projects" className="projects__title">НАШИ ПРОЕКТЫ</h2>
       <Tab/>
 
-      <div className="section-projects__cards">
+      <div className="projects__cards">
         {cards.map((card, index) => 
           <CardProject card={card} key={index}/>)}
       </div>
 
-      <ul className="section-projects__numbers">
-        <li><a className="section-projects__number" href="#">
-          <img className="section-projects__number-down_arrow" 
+      <ul className="projects__numbers">
+        <li><a className="projects__number" href="#">
+          <img className="projects__number-down_arrow" 
                src={arrow} alt="down" />
         </a></li>
-        <li><a className="section-projects__number" href="#">
-          <img className="section-projects__number-right_arrow" 
+        <li><a className="projects__number" href="#">
+          <img className="projects__number-right_arrow" 
                src={arrow} alt="right" />
         </a></li>
-        <li><a className="section-projects__number" href="#">1</a></li>
-        <li><a className="section-projects__number" href="#">2</a></li>
-        <li><a className="section-projects__number" href="#">3</a></li>
-        <p className="section-projects__points">...</p>
-        <li><a className="section-projects__number" href="#">30</a></li>
+        <li><a className="projects__number" href="#">1</a></li>
+        <li><a className="projects__number" href="#">2</a></li>
+        <li><a className="projects__number" href="#">3</a></li>
+        <p className="projects__points">...</p>
+        <li><a className="projects__number" href="#">30</a></li>
       </ul>
     </section>
   );

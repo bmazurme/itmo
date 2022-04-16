@@ -1,0 +1,6 @@
+.projects__number-down_arrow {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  transform: rotate(180deg);
+}

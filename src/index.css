@@ -68,7 +68,7 @@
 @import url(./blocks/card-project/__content/card-project__content.css);
 @import url(./blocks/card-project/__link/card-project__link.css);
 
-@import url(./blocks/section-projects/__link/section-projects__link.css);
+@import url(./blocks/projects/__link/projects__link.css);
 
 @import url(./blocks/card-team/card-team.css);
 @import url(./blocks/card-team/__photo/card-team__photo.css);
@@ -149,16 +149,16 @@
 
 @import url(./blocks/section/_projects/section_projects.css);
 
-@import url(./blocks/section-projects/__title/section-projects__title.css);
-@import url(./blocks/section-projects/__cards/section-projects__cards.css);
-@import url(./blocks/section-projects/__tabs/section-projects__tabs.css);
-@import url(./blocks/section-projects/__tab/section-projects__tab.css);
+@import url(./blocks/projects/__title/projects__title.css);
+@import url(./blocks/projects/__cards/projects__cards.css);
+@import url(./blocks/projects/__tabs/projects__tabs.css);
+@import url(./blocks/projects/__tab/projects__tab.css);
 
-@import url(./blocks/section-projects/__number/section-projects__number.css);
-@import url(./blocks/section-projects/__numbers/section-projects__numbers.css);
-@import url(./blocks/section-projects/__points/section-projects__points.css);
-@import url(./blocks/section-projects/__number/__number-down/section-projects__number-down_arrow.css);
-@import url(./blocks/section-projects/__number/__number-right/section-projects__number-right_arrow.css);
+@import url(./blocks/projects/__number/projects__number.css);
+@import url(./blocks/projects/__numbers/projects__numbers.css);
+@import url(./blocks/projects/__points/projects__points.css);
+@import url(./blocks/projects/__number/__number-down/projects__number-down_arrow.css);
+@import url(./blocks/projects/__number/__number-right/projects__number-right_arrow.css);
 
 @import url(./blocks/section/_contacts/section_contacts.css);
 

@@ -11,7 +11,7 @@ import SectionContacts from './SectionContacts';
 import SectionFooter from './SectionFooter';
 import Popup from './Popup';
 
-import SectionAbout from './SectionAbout';
+//import SectionAbout from './SectionAbout';
 
 function App() {
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);

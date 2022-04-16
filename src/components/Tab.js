@@ -8,10 +8,10 @@ function Tab () {
   }
 
   return(
-    <ul className="section-projects__tabs">
+    <ul className="projects__tabs">
       {tabs.map((tab, index) =>
-      <li className={`section-projects__tab`} key={index}> 
-        <a className={`section-projects__link ${index===active && 'section-projects__link-active'}`}
+      <li className={`projects__tab`} key={index}> 
+        <a className={`projects__link ${index===active && 'projects__link-active'}`}
            onClick={()=>handleClick(index)} 
            href="#project">{tab}
         </a>
