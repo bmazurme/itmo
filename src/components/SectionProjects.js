@@ -19,15 +19,21 @@ function SectionProjects(props) {
           <img className="projects__number-down_arrow" 
                src={arrow} alt="down" />
         </a></li>
+
+        <li><a className="projects__number" href="#">1</a></li>
+        <li><a className="projects__number" href="#">2</a></li>
+        <li><a className="projects__number" href="#">3</a></li>
+
+
+        
+        <li><p className="projects__points">...</p></li>
+
+        <li><a className="projects__number" href="#">30</a></li>
+
         <li><a className="projects__number" href="#">
           <img className="projects__number-right_arrow" 
                src={arrow} alt="right" />
         </a></li>
-        <li><a className="projects__number" href="#">1</a></li>
-        <li><a className="projects__number" href="#">2</a></li>
-        <li><a className="projects__number" href="#">3</a></li>
-        <p className="projects__points">...</p>
-        <li><a className="projects__number" href="#">30</a></li>
       </ul>
     </section>
   );

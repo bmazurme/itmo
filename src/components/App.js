@@ -55,7 +55,7 @@ function App() {
     <div className='page' >
       <SectionHeader step={step}/>
       {/* <SectionAbout /> */}
-      <SectionIndustrial handleCardClick={handleCardClick}/>
+      {/* <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects step={step + 1}/>
       <SectionEducation/>
       <SectionArticles step={stepArticle}/>
@@ -63,7 +63,7 @@ function App() {
       <SectionPartners/>
       <SectionContacts/>
       <SectionFooter/>
-      <Popup isOpen={isPopupOpen} handleCardClick={handleCardClick}/>
+      <Popup isOpen={isPopupOpen} handleCardClick={handleCardClick}/> */}
     </div>
     </>
   );

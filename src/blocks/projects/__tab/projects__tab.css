@@ -1,16 +1,20 @@
 .projects__tab {
-  width: 278px;
+  max-width: 278px;
   font-weight: 600;
   line-height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .projects__tab {
-    width: 288px;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 288px;
     display: none;
   }
   .projects__tab:first-child {
@@ -19,13 +23,14 @@
 
   .projects__tab:hover {
     display: flex;
-    /* background-color: aqua; */
   }
 }
   
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .projects__tab {
-      width: 172px;
-      display: flex;
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 172px;
+    display: flex;
   }
 }
