@@ -1,25 +1,21 @@
-.section-articles__title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.team__title {
+  width: 472px;
   font-weight: 600;
   font-size: 36px;
-  line-height: 68px;
+  line-height: 68px;  
   text-align: center;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-  color: #001337;
-  max-width: 1110px;
-  /* width: 100%; */
+  color: #000D26;
   padding: 0;
-  margin-top: 80px;
+  margin-top: 0;
   margin-bottom: 0;
-  margin-left: 165px;
-  margin-right: 165px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .section-articles__title {
+  .team__title {
     margin-left: 0;
     margin-right: 0;
     margin-top: 40px;
@@ -31,8 +27,8 @@
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
-  .section-articles__title {
-    /* max-width: 767px; */
+  .team__title {
+    max-width: 1023px;
     font-size: 24px;
     line-height: 32px;
     margin-left: 40px;

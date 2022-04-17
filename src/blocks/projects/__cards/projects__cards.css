@@ -1,4 +1,5 @@
 .projects__cards {
+  align-self: center;
   max-width: 1110px;
   margin-top: 60px;
   margin-left:  165px;

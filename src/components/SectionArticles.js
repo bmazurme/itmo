@@ -21,11 +21,11 @@ function SectionArticles(props) {
 
   return(
     <section className="section section_articles">
-      <h2 id="articles" className="section-articles__title">
+      <h2 id="articles" className="articles__title">
         Публикации
       </h2>
-      <div className="section-articles__cards">
-        <div className="section-article__group">
+      <div className="articles__cards">
+        <div className="article__group">
           {pages[dot].map((card, index) =>
               <CardArticle key={index} card={card}/>
           )}

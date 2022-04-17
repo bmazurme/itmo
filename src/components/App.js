@@ -54,12 +54,11 @@ function App() {
     
     <div className='page' >
       <SectionHeader step={step}/>
-      {/* <SectionAbout /> */}
       <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects step={step + 1}/>
       <SectionEducation/>
       <SectionArticles step={stepArticle}/>
-      <SectionTeam step={step + 1}/>
+      <SectionTeam step={step}/>
       <SectionPartners/>
       <SectionContacts/>
       <SectionFooter/>

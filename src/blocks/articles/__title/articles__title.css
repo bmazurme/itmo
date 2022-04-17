@@ -1,21 +1,24 @@
-.section-team__title {
-  width: 472px;
+.articles__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   font-weight: 600;
   font-size: 36px;
-  line-height: 68px;  
+  line-height: 68px;
   text-align: center;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-  color: #000D26;
+  color: #001337;
+  max-width: 1110px;
   padding: 0;
-  margin-top: 0;
+  margin-top: 80px;
   margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 165px;
+  margin-right: 165px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .section-team__title {
+  .articles__title {
     margin-left: 0;
     margin-right: 0;
     margin-top: 40px;
@@ -27,8 +30,7 @@
 }
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
-  .section-team__title {
-    max-width: 1023px;
+  .articles__title {
     font-size: 24px;
     line-height: 32px;
     margin-left: 40px;
