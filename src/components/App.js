@@ -54,9 +54,9 @@ function App() {
     
     <div className='page' >
       <SectionHeader step={step}/>
-      {/* <SectionIndustrial handleCardClick={handleCardClick}/>
+      <SectionIndustrial handleCardClick={handleCardClick}/>
       <SectionProjects step={step + 1}/>
-      <SectionEducation/>
+      {/* <SectionEducation/>
       <SectionArticles step={stepArticle}/>
       <SectionTeam step={step}/>
       <SectionPartners/>

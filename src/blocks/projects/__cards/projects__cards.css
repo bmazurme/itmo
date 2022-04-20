@@ -1,6 +1,7 @@
 .projects__cards {
   align-self: center;
   max-width: 1110px;
+  width: 100%;
   margin-top: 60px;
   margin-left:  165px;
   margin-right:  165px;

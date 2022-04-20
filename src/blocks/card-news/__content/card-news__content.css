@@ -29,7 +29,6 @@
 
 @media screen and (min-width: 768px) and ( max-width: 1023px)  {
   .card-news__content {
-    /* width: 270px; */
     font-size: 12px;
     line-height: 16px;
   }
